@@ -10,7 +10,8 @@
 {% endblock %}
 
 {% block link %}
-    <link href="{% static 'css/bootstrap-switch.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/switch.css' %}" rel="stylesheet" type="text/css">
+
 {% endblock %}
 
 {% block page_content %}
@@ -47,28 +48,28 @@
                                    role="grid" aria-describedby="dataTable_info" style="width: 100%;">
                                 <thead>
                                 <tr role="row">
-                                    <th class="sorting_asc" tabindex="0" aria-controls="dataTable" rowspan="1"
+                                    <th tabindex="0" aria-controls="dataTable" rowspan="1"
                                         colspan="1" aria-sort="ascending"
-                                        aria-label="Name: activate to sort column descending" style="width: 98px;">Name
+                                        style="width: 120px;">Name
                                     </th>
-                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1"
-                                        aria-label="Position: activate to sort column ascending" style="width: 159px;">
+                                    <th tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1"
+                                        style="width: 80px;">
                                         Mid
                                     </th>
-                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1"
-                                        aria-label="Office: activate to sort column ascending" style="width: 68px;">
+                                    <th tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1"
+                                        style="width: 100px;">
                                         Record Time
                                     </th>
-                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1"
-                                        aria-label="Age: activate to sort column ascending" style="width: 30px;">
+                                    <th tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1"
+                                        style="width: 100px;">
                                         Keep On
                                     </th>
-                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1"
-                                        aria-label="Start date: activate to sort column ascending" style="width: 64px;">
+                                    <th tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1"
+                                        style="width: 80px;">
                                         Mini Mode
                                     </th>
-                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1"
-                                        aria-label="Salary: activate to sort column ascending" style="width: 58px;">
+                                    <th tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1"
+                                        style="width: 80px;">
                                         View
                                     </th>
                                 </tr>
@@ -82,9 +83,17 @@
                                         </td>
                                         <td>{{ up.mid }}</td>
                                         <td>{{ up.record_time }}</td>
-                                        <td><input name="status" type="checkbox" data-size="small" placeholder=""></td>
-                                        <td><input name="status" type="checkbox" data-size="small" placeholder=""></td>
-                                        <td>$162,700</td>
+                                        <td>
+                                            <div class="" data-control="BOX" id="Box_points_switch">
+                                                <label><input  class="mui-switch mui-switch-anim" type="checkbox"
+                                                              id="switch"></label>
+                                            </div>
+                                        <td><label><input  class="mui-switch mui-switch-anim" type="checkbox"
+                                                              id="switch"></label></td>
+                                        <td>
+                                            <button type="button" class="btn btn-primary btn-sm">view</button>
+                                            <button type="button" class="btn btn-danger btn-sm">view</button>
+                                        </td>
                                     </tr>
                                 {% endfor %}
 
@@ -141,23 +150,4 @@
 
 
 {% block scripts %}
-    <script href="{% static 'js/bootstrap-switch.js' %}"></script>
-    <script type="text/javascript">
-        $('[name="status"]').bootstrapSwitch({
-            onText: "启动",
-            offText: "停止",
-            onColor: "success",
-            offColor: "info",
-            size: "small",
-            onSwitchChange: function (event, state) {
-                if (state === true) {
-                    alert('已打开');
-                } else {
-                    alert('已关闭');
-                }
-            }
-
-        })
-
-    </script>
 {% endblock %}

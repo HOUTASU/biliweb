@@ -11,7 +11,6 @@
 
 {% block link %}
     <link href="{% static 'css/switch.css' %}" rel="stylesheet" type="text/css">
-
 {% endblock %}
 
 {% block page_content %}
@@ -35,10 +34,9 @@
                             </select> entries</label></div>
                         </div>
                         <div class="col-sm-12 col-md-6">
-                            <div id="dataTable_filter" class="dataTables_filter"><label>Search:<input type="search"
-                                                                                                      class="form-control form-control-sm"
-                                                                                                      placeholder=""
-                                                                                                      aria-controls="dataTable"></label>
+                            <div id="dataTable_filter" class="dataTables_filter">
+                                <label>Search:<input type="search" class="form-control form-control-sm" placeholder=""
+                                                     aria-controls="dataTable"></label>
                             </div>
                         </div>
                     </div>
@@ -85,11 +83,11 @@
                                         <td>{{ up.record_time }}</td>
                                         <td>
                                             <div class="" data-control="BOX" id="Box_points_switch">
-                                                <label><input  class="mui-switch mui-switch-anim" type="checkbox"
+                                                <label><input class="mui-switch mui-switch-anim" type="checkbox"
                                                               id="switch"></label>
                                             </div>
-                                        <td><label><input  class="mui-switch mui-switch-anim" type="checkbox"
-                                                              id="switch"></label></td>
+                                        <td><label><input class="mui-switch mui-switch-anim" type="checkbox"
+                                                          id="switch"></label></td>
                                         <td>
                                             <button type="button" class="btn btn-primary btn-sm">view</button>
                                             <button type="button" class="btn btn-danger btn-sm">view</button>
@@ -104,39 +102,52 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-5">
                             <div class="dataTables_info" id="dataTable_info" role="status" aria-live="polite">Showing 1
-                                to 10 of 57 entries
+                                to 10 of 100 entries
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-7">
                             <div class="dataTables_paginate paging_simple_numbers" id="dataTable_paginate">
                                 <ul class="pagination">
-                                    <li class="paginate_button page-item previous disabled" id="dataTable_previous"><a
-                                            href="#" aria-controls="dataTable" data-dt-idx="0" tabindex="0"
-                                            class="page-link">Previous</a></li>
-                                    <li class="paginate_button page-item active"><a href="#" aria-controls="dataTable"
-                                                                                    data-dt-idx="1" tabindex="0"
-                                                                                    class="page-link">1</a></li>
-                                    <li class="paginate_button page-item "><a href="#" aria-controls="dataTable"
-                                                                              data-dt-idx="2" tabindex="0"
-                                                                              class="page-link">2</a></li>
-                                    <li class="paginate_button page-item "><a href="#" aria-controls="dataTable"
-                                                                              data-dt-idx="3" tabindex="0"
-                                                                              class="page-link">3</a></li>
-                                    <li class="paginate_button page-item "><a href="#" aria-controls="dataTable"
-                                                                              data-dt-idx="4" tabindex="0"
-                                                                              class="page-link">4</a></li>
-                                    <li class="paginate_button page-item "><a href="#" aria-controls="dataTable"
-                                                                              data-dt-idx="5" tabindex="0"
-                                                                              class="page-link">5</a></li>
-                                    <li class="paginate_button page-item "><a href="#" aria-controls="dataTable"
-                                                                              data-dt-idx="6" tabindex="0"
-                                                                              class="page-link">6</a></li>
-                                    <li class="paginate_button page-item next" id="dataTable_next"><a href="#"
-                                                                                                      aria-controls="dataTable"
-                                                                                                      data-dt-idx="7"
-                                                                                                      tabindex="0"
-                                                                                                      class="page-link">Next</a>
-                                    </li>
+                                    {# 上一页 #}
+                                    {% if page_of_lists.has_previous %}
+                                        <li class="paginate_button page-item previous" id="dataTable_previous">
+                                            <a href="?page={{ page_of_lists.previous_page_number }}"
+                                               aria-controls="dataTable" data-dt-idx="0" tabindex="0" class="page-link">
+                                                <span aria-hidden="true">Previous</span>
+                                            </a>
+                                        </li>
+                                    {% endif %}
+
+                                    {# 全部页码 #}
+                                    {% for page_num in page_range %}
+                                        {% if page_num == page_of_lists.number %}
+                                            <li class="paginate_button page-item active">
+                                                <a aria-controls="dataTable" class="page-link">
+                                                    <span aria-hidden="true">{{ page_num }}</span>
+                                                </a>
+                                            </li>
+                                        {% else %}
+                                            {% if page_num == '...' %}
+                                                <li>
+                                                    <a aria-controls="dataTable" class="page-link">
+                                                        <span>{{ page_num }}</span>
+                                                    </a></li>
+                                            {% else %}
+                                                <li>
+                                                    <a href="?page={{ page_num }}" aria-controls="dataTable" class="page-link">
+                                                        {{ page_num }}</a></li>
+                                            {% endif %}
+                                        {% endif %}
+                                    {% endfor %}
+                                    {# 下一页 #}
+                                    {% if page_of_lists.has_next %}
+                                        <li class="paginate_button page-item next" id="dataTable_next">
+                                            <a href="?page={{ page_of_lists.next_page_number }}"
+                                               aria-controls="dataTable" tabindex="0" class="page-link">
+                                                <span aria-hidden="true">Next</span>
+                                            </a>
+                                        </li>
+                                    {% endif %}
                                 </ul>
                             </div>
                         </div>

@@ -11,6 +11,7 @@
 
 {% block link %}
     <link href="{% static 'css/switch.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'layui/css/layui.css' %}" rel="stylesheet" type="text/css">
 {% endblock %}
 
 {% block page_content %}
@@ -18,6 +19,12 @@
         <div class="card-header">
             <i class="fas fa-table"></i>
             Data Table Example
+            <div class="site-demo-button" id="addup" style="margin-bottom: 0; float: right; margin-right: 8%;">
+                <button data-method="offset" data-type="auto"
+                        class="layui-btn layui-btn-danger layui-btn-radius">
+                    ADD NEW UP
+                </button>
+            </div>
         </div>
         <div class="card-body">
             <div class="table-responsive">
@@ -89,8 +96,8 @@
                                         <td><label><input class="mui-switch mui-switch-anim" type="checkbox"
                                                           id="switch"></label></td>
                                         <td>
-                                            <button type="button" class="btn btn-primary btn-sm">view</button>
-                                            <button type="button" class="btn btn-danger btn-sm">view</button>
+                                            <button type="button" class="btn btn-primary btn-sm">View</button>
+                                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
                                         </td>
                                     </tr>
                                 {% endfor %}
@@ -134,7 +141,8 @@
                                                     </a></li>
                                             {% else %}
                                                 <li>
-                                                    <a href="?page={{ page_num }}" aria-controls="dataTable" class="page-link">
+                                                    <a href="?page={{ page_num }}" aria-controls="dataTable"
+                                                       class="page-link">
                                                         {{ page_num }}</a></li>
                                             {% endif %}
                                         {% endif %}
@@ -161,4 +169,39 @@
 
 
 {% block scripts %}
+    <script src="{% static '/layui/layui.js' %}"></script>
+    <script>
+        layui.use('layer', function () { //独立版的layer无需执行这一句
+            var $ = layui.jquery, layer = layui.layer; //独立版的layer无需执行这一句
+
+            //触发事件
+            var active = {
+                offset: function (othis) {
+                    var type = othis.data('type')
+                        , text = othis.text();
+
+                    layer.open({
+                        type: 1
+                        , offset: type //具体配置参考：http://www.layui.com/doc/modules/layer.html#offset
+                        , id: 'layerDemo' + type //防止重复弹出
+                        , title: 'ADD NEW UP'
+                        , content: '<div class="layui-input-block" style="margin:20px 60px;"><input type="text" name="title" ' +
+                            'required lay-verify="required" placeholder="请输入mid" autocomplete="off" class="layui-input"></div>'
+                        , btn: '确认添加'
+                        , btnAlign: 'c' //按钮居中
+                        , shade: 0 //不显示遮罩
+                        , yes: function () {
+                            layer.closeAll();
+                        }
+                    });
+                }
+            };
+
+            $('#addup .layui-btn').on('click', function () {
+                var othis = $(this), method = othis.data('method');
+                active[method] ? active[method].call(this, othis) : '';
+            });
+
+        });
+    </script>
 {% endblock %}

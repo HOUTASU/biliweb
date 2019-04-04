@@ -2,6 +2,8 @@ from django.shortcuts import render
 from .models import UP, VIDEO
 from django.core.paginator import Paginator
 from django.conf import settings
+from .forms import AddUpForm
+import logging
 
 
 # Create your views here.
@@ -38,12 +40,28 @@ def index(request):
 
 
 def up_trace(request):
+    if request.method == 'POST':
+        add_form = AddUpForm(request.POST)
+        if add_form.is_valid():
+            mid = add_form.cleaned_data['mid']
+            logging.debug(mid)
+    else:
+        add_form = AddUpForm()
     ups_all_list = UP.objects.all()
     content = get_list_common_data(request, ups_all_list)
+    content['add_form'] = add_form
     return render(request, 'up_trace.html', content)
 
 
 def video_trace(request):
+    if request.method == 'POST':
+        add_form = AddUpForm(request.POST)
+        if add_form.is_valid():
+            mid = add_form.cleaned_data['mid']
+            logging.debug(mid)
+    else:
+        add_form = AddUpForm()
     videos_all_list = VIDEO.objects.all()
     content = get_list_common_data(request, videos_all_list)
+    content['add_form'] = add_form
     return render(request, 'video_trace.html', content)

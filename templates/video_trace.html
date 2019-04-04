@@ -11,13 +11,14 @@
 
 {% block link %}
     <link href="{% static 'css/switch.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'layui/css/layui.css' %}" rel="stylesheet" type="text/css">
 {% endblock %}
 
 {% block page_content %}
     <div class="card mb-3">
         <div class="card-header">
             <i class="fas fa-table"></i>
-            Data Table Example
+            Video Trace List
         </div>
         <div class="card-body">
             <div class="table-responsive">
@@ -35,8 +36,12 @@
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <div id="dataTable_filter" class="dataTables_filter">
-                                <label>Search:<input type="search" class="form-control form-control-sm" placeholder=""
-                                                     aria-controls="dataTable"></label>
+                                 <input type="search" class="form-control form-control-sm" placeholder="请输入aid"
+                                       aria-controls="dataTable">
+                                <button data-method="offset" data-type="auto"
+                                        class="layui-btn layui-btn-danger layui-btn-radius layui-btn-sm add-new-btn">
+                                    ADD NEW VIDEO
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -134,7 +139,8 @@
                                                     </a></li>
                                             {% else %}
                                                 <li>
-                                                    <a href="?page={{ page_num }}" aria-controls="dataTable" class="page-link">
+                                                    <a href="?page={{ page_num }}" aria-controls="dataTable"
+                                                       class="page-link">
                                                         {{ page_num }}</a></li>
                                             {% endif %}
                                         {% endif %}

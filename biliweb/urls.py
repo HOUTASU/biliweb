@@ -22,5 +22,5 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('index.html', views.index, name='index'),
     path('up_trace.html', views.up_trace, name='up_trace'),
-    path('video_trace.html', views.video_trace, name='video_trace')
+    path('video_trace.html', views.video_trace, name='video_trace'),
 ]

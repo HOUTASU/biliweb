@@ -18,13 +18,7 @@
     <div class="card mb-3">
         <div class="card-header">
             <i class="fas fa-table"></i>
-            Data Table Example
-            <div class="site-demo-button" id="addup" style="margin-bottom: 0; float: right; margin-right: 8%;">
-                <button data-method="offset" data-type="auto"
-                        class="layui-btn layui-btn-danger layui-btn-radius">
-                    ADD NEW UP
-                </button>
-            </div>
+            UP Trace List
         </div>
         <div class="card-body">
             <div class="table-responsive">
@@ -42,8 +36,17 @@
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <div id="dataTable_filter" class="dataTables_filter">
-                                <label>Search:<input type="search" class="form-control form-control-sm" placeholder=""
-                                                     aria-controls="dataTable"></label>
+                                <form action="" method="post">
+                                    {% csrf_token %}
+                                    {% for field in  add_form %}
+                                        <p class="text-danger" style="font-size: 1.2em; float: left">{{ field.errors.as_text }}</p>
+                                        {{ field }}
+                                    {% endfor %}
+                                    <input type="submit" value="ADD NEW UP"
+                                           class="layui-btn layui-btn-danger col-sm-3
+                                           layui-btn-radius layui-btn-sm add-new-btn"
+                                    >
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -96,12 +99,12 @@
                                         <td><label><input class="mui-switch mui-switch-anim" type="checkbox"
                                                           id="switch"></label></td>
                                         <td>
-                                            <button type="button" class="btn btn-primary btn-sm">View</button>
+                                            <button type="button" class="btn btn-primary btn-sm "> &nbsp;View &nbsp;
+                                            </button>
                                             <button type="button" class="btn btn-danger btn-sm">Delete</button>
                                         </td>
                                     </tr>
                                 {% endfor %}
-
                                 </tbody>
                             </table>
                         </div>
@@ -169,39 +172,4 @@
 
 
 {% block scripts %}
-    <script src="{% static '/layui/layui.js' %}"></script>
-    <script>
-        layui.use('layer', function () { //独立版的layer无需执行这一句
-            var $ = layui.jquery, layer = layui.layer; //独立版的layer无需执行这一句
-
-            //触发事件
-            var active = {
-                offset: function (othis) {
-                    var type = othis.data('type')
-                        , text = othis.text();
-
-                    layer.open({
-                        type: 1
-                        , offset: type //具体配置参考：http://www.layui.com/doc/modules/layer.html#offset
-                        , id: 'layerDemo' + type //防止重复弹出
-                        , title: 'ADD NEW UP'
-                        , content: '<div class="layui-input-block" style="margin:20px 60px;"><input type="text" name="title" ' +
-                            'required lay-verify="required" placeholder="请输入mid" autocomplete="off" class="layui-input"></div>'
-                        , btn: '确认添加'
-                        , btnAlign: 'c' //按钮居中
-                        , shade: 0 //不显示遮罩
-                        , yes: function () {
-                            layer.closeAll();
-                        }
-                    });
-                }
-            };
-
-            $('#addup .layui-btn').on('click', function () {
-                var othis = $(this), method = othis.data('method');
-                active[method] ? active[method].call(this, othis) : '';
-            });
-
-        });
-    </script>
 {% endblock %}

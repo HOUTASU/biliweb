@@ -71,3 +71,8 @@ def add_video(request):
     content = get_list_common_data(request, videos_all_list)
     content['add_form'] = add_form
     return render(request, 'video_trace.html', content)
+
+
+def charts1(request):
+    content = dict()
+    return render(request, 'charts1.html', content)

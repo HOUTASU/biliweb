@@ -32,7 +32,7 @@
 
     <a class="navbar-brand mr-1" href="{% url 'index' %}">BDVS</a>
 
-    <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+    <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle">
         <i class="fas fa-bars"></i>
     </button>
 
@@ -111,7 +111,7 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="pagesDropdown">
                 <h6 class="dropdown-header">BILI</h6>
-                <a class="dropdown-item" href="login.html">Charts1</a>
+                <a class="dropdown-item" href="{% url 'charts1' %}">Charts1</a>
                 <a class="dropdown-item" href="register.html">Charts2</a>
                 <a class="dropdown-item" href="forgot-password.html">Charts3</a>
             </div>

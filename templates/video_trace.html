@@ -91,7 +91,7 @@
                                             <img src="static/img/pic/{{ video.pic }}" style="width: 40px" alt="">
                                             <span>{{ video.title }}</span>
                                         </td>
-                                        <td>{{ up.mid }}</td>
+                                        <td>{{ video.aid }}</td>
                                         <td>{{ video.record_time }}</td>
                                         <td>
                                             <div class="" data-control="BOX" id="Box_points_switch">
@@ -101,8 +101,8 @@
                                         <td><label><input class="mui-switch mui-switch-anim" type="checkbox"
                                                           id="switch"></label></td>
                                         <td>
-                                            <button type="button" class="btn btn-primary btn-sm">view</button>
-                                            <button type="button" class="btn btn-danger btn-sm">view</button>
+                                            <button type="button" class="btn btn-primary btn-sm">View</button>
+                                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
                                         </td>
                                     </tr>
                                 {% endfor %}

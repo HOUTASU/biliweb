@@ -3,8 +3,7 @@ from .models import UP, VIDEO
 from django.core.paginator import Paginator
 from django.conf import settings
 from .forms import AddUpForm, AddVideoForm
-import logging
-import requests
+from kit.mongoConnect import MongoConnect
 import json
 
 
@@ -75,4 +74,16 @@ def add_video(request):
 
 def charts1(request):
     content = dict()
+    mongo = MongoConnect()
+    db = mongo.get_connection()
+    up_data = db['up_data'].find_one({'_id': '2'})
+    del up_data['_id']
+    archive, fans, trace_time = [], [], []
+    for once in up_data.values():
+        archive.append(once['archive'])
+        fans.append(once['fans'])
+        trace_time.append(once['trace_time'])
+
+    res = {'archive': archive, 'fans': fans, 'trace_time': trace_time}
+    content['up_data'] = res
     return render(request, 'charts1.html', content)

@@ -1,7 +1,25 @@
-.add-new-btn{
+.add-new-btn {
     margin-right: 20px;
 }
 
-.add-new-up{
+.add-new-up {
     display: block;
+}
+
+.up-info {
+    float: left;
+    height: 232px;
+    width: 232px;
+    margin-left: 36px;
+}
+
+.up-info img {
+    height: 80px;
+    width: 80px;
+}
+
+.echarts-main {
+    width: 1080px;
+    height: 540px;
+    left: 240px;
 }

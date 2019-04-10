@@ -44,6 +44,11 @@ class AddUpForm(forms.Form):
             return False
         name = data['data']['card']['name']
         pic = data['data']['card']['face']
+        verify = data['data']['card']['official_verify']['type']
+        if verify != 0:
+            verify_reason = ''
+        else:
+            verify_reason = data['data']['card']['official_verify']['desc']
         img = requests.get(pic).content
         face_dir = str(mid) + '.' + pic.split('.')[-1]
         with open(f'static/img/faces/{face_dir}', 'wb') as f:
@@ -53,7 +58,9 @@ class AddUpForm(forms.Form):
             'name': name,
             'mid': mid,
             'keep_on': True,
-            'mini_mode': True
+            'mini_mode': True,
+            'verify': verify,
+            'verify_reason': verify_reason
         }
         UP.objects.create(**up)
         return True
@@ -96,7 +103,7 @@ class AddVideoForm(forms.Form):
             'pic': pic_dir,
             'aid': aid,
             'end_time': datetime.today() + timedelta(days=7),
-            'tracing': True
+            'tracing': True,
         }
         VIDEO.objects.create(**video)
         return True

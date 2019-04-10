@@ -25,5 +25,6 @@ urlpatterns = [
     path('video_trace.html', views.video_trace, name='video_trace'),
     path('add_up', views.add_up, name='add_up'),
     path('add_video', views.add_video, name='add_video'),
-    path('charts1', views.charts1, name='charts1')
+    # path('charts1', views.charts1, name='charts1')
+    path('up_data/<str:mid>', views.up_data, name='up_data')
 ]

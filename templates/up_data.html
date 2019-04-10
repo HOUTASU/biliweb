@@ -17,8 +17,11 @@
 {% block page_content %}
     <div>
         <div class="up-info">
-            <p>bishi</p>
-            <img src="/static/img/faces/2.jpg" alt="">
+            <img src="/static/img/faces/{{ up_info.pic }}" alt="">
+            <p>{{ up_info.name }}</p>
+            {% if up_info.verify == 0 %}
+                {{ up_info.verify_reason }}
+            {% endif %}
         </div>
         <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
         <div id="main" class="echarts-main"></div>

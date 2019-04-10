@@ -23,3 +23,8 @@
     height: 540px;
     left: 240px;
 }
+
+.btn-view {
+    text-decoration: none !important;
+    color: #FFFFFF
+}

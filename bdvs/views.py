@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from .models import UP, VIDEO
 from django.core.paginator import Paginator
 from django.conf import settings
@@ -72,18 +72,21 @@ def add_video(request):
     return render(request, 'video_trace.html', content)
 
 
-def charts1(request):
+def up_data(request, mid):
     content = dict()
     mongo = MongoConnect()
     db = mongo.get_connection()
-    up_data = db['up_data'].find_one({'_id': '2'})
-    del up_data['_id']
+    up = db['up_data'].find_one({'_id': mid})
+    del up['_id']
     archive, fans, trace_time = [], [], []
-    for once in up_data.values():
+    for once in up.values():
         archive.append(once['archive'])
         fans.append(once['fans'])
         trace_time.append(once['trace_time'])
-
     res = {'archive': archive, 'fans': fans, 'trace_time': trace_time}
+
+    up_info = get_object_or_404(UP, mid=mid)
+
+    content['up_info'] = up_info
     content['up_data'] = res
-    return render(request, 'charts1.html', content)
+    return render(request, 'up_data.html', content)

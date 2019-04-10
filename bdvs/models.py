@@ -9,6 +9,8 @@ class UP(models.Model):
     record_time = models.DateTimeField(auto_now_add=True)
     keep_on = models.BooleanField()
     mini_mode = models.BooleanField()
+    verify = models.IntegerField(default=-1)
+    verify_reason = models.CharField(max_length=256, default='')
 
 
 class VIDEO(models.Model):

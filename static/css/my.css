@@ -8,7 +8,7 @@
 
 .up-info {
     float: left;
-    height: 232px;
+    height: 180px;
     width: 232px;
     margin-left: 36px;
 }
@@ -27,4 +27,11 @@
 .btn-view {
     text-decoration: none !important;
     color: #FFFFFF
+}
+
+.echarts-1 {
+    width: 1080px;
+    height: 960px;
+    margin: 0 auto;
+    text-align: center
 }

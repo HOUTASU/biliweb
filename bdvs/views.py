@@ -90,3 +90,35 @@ def up_data(request, mid):
     content['up_info'] = up_info
     content['up_data'] = res
     return render(request, 'up_data.html', content)
+
+
+def video_data(request, aid):
+    content = dict()
+    mongo = MongoConnect()
+    db = mongo.get_connection()
+    video = db['video_data'].find_one({'_id': aid})
+    del video['_id']
+    view, danmaku, reply, favorite = [], [], [], []
+    coin, share, like, trace_time = [], [], [], []
+    for once in video.values():
+        view.append(once['view'])
+        danmaku.append(once['danmaku'])
+        reply.append(once['reply'])
+        favorite.append(once['favorite'])
+        coin.append(once['coin'])
+        share.append(once['share'])
+        like.append(once['like'])
+        trace_time.append(once['trace_time'])
+    res = {'view': view, 'danmaku': danmaku, 'reply': reply, 'favorite': favorite,
+           'coin': coin, 'share': share, 'like': like, 'trace_time': trace_time}
+
+    video_info = get_object_or_404(VIDEO, aid=aid)
+
+    content['video_info'] = video_info
+    content['video_data'] = res
+    return render(request, 'video_data.html', content)
+
+
+def chart_1(request):
+    content = dict()
+    return render(request, 'chart_1.html', content)

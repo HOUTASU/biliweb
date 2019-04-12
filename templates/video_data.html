@@ -1,0 +1,118 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block page_title %}
+    Charts
+{% endblock %}
+
+{% block page_name %}
+    Charts
+{% endblock %}
+
+{% block link %}
+    <link href="{% static '/css/my.css' %}">
+    <script src="{% static 'js/echarts.js' %}"></script>
+{% endblock %}
+
+{% block page_content %}
+    <div>
+        <div class="up-info">
+            <img src="/static/img/pic/{{ video_info.pic }}" alt="">
+            <p>{{ video_info.title }}</p>
+        </div>
+        <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+        <div id="main" class="echarts-main"></div>
+        <script type="text/javascript">
+            // 基于准备好的dom，初始化echarts实例
+            let myChart = echarts.init(document.getElementById('main'));
+
+            // 指定图表的配置项和数据
+            let option = {
+                title: {
+                    text: '折线图堆叠'
+                },
+                tooltip: {
+                    trigger: 'axis'
+                },
+                legend: {
+                    data: ['view', 'danmaku', 'reply', 'favorite', 'coin', 'share', 'like']
+                },
+                grid: {
+                    left: '3%',
+                    right: '4%',
+                    bottom: '3%',
+                    containLabel: true
+                },
+                xAxis: {
+                    type: 'category',
+                    axisLabel: {
+                        rotate: 30,
+                        interval: 0,
+                    },
+                    axisLine:{
+                        lineStyle:{color: 'red'}
+                    },
+                    boundaryGap: false,
+                    data: {{ video_data.trace_time |safe }}
+                },
+                yAxis: {
+                    type: 'value',
+                    scale: true
+                },
+                series: [
+                    {
+                        name: 'view',
+                        type: 'line',
+                        stack: '总量',
+                        data: {{ video_data.view }}
+                    },
+                    {
+                        name: 'danmaku',
+                        type: 'line',
+                        stack: '总量',
+                        data: {{ video_data.danmaku }}
+                    },
+                    {
+                        name: 'reply',
+                        type: 'line',
+                        stack: '总量',
+                        data: {{ video_data.reply }}
+                    },
+                    {
+                        name: 'favorite',
+                        type: 'line',
+                        stack: '总量',
+                        data: {{ video_data.favorite }}
+                    },
+                    {
+                        name: 'coin',
+                        type: 'line',
+                        stack: '总量',
+                        data: {{ video_data.coin }}
+                    },
+                    {
+                        name: 'share',
+                        type: 'line',
+                        stack: '总量',
+                        data: {{ video_data.share }}
+                    },
+                    {
+                        name: 'like',
+                        type: 'line',
+                        stack: '总量',
+                        data: {{ video_data.like }}
+                    }
+                ]
+            };
+
+
+            // 使用刚指定的配置项和数据显示图表。
+            myChart.setOption(option);
+        </script>
+    </div>
+{% endblock %}
+
+
+{% block scripts %}
+
+{% endblock %}

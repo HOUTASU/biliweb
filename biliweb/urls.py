@@ -32,5 +32,6 @@ urlpatterns = [
     path('chart_3', views.chart_3, name='chart_3'),
     path('chart_4', views.chart_4, name='chart_4'),
     path('up_data/<str:mid>', views.up_data, name='up_data'),
-    path('video_data/<str:aid>', views.video_data, name='video_data')
+    path('video_data/<str:aid>', views.video_data, name='video_data'),
+    path('ranks/<int:type>', views.ranks, name='ranks'),
 ]

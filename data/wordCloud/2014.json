@@ -1,1 +1,764 @@
-{"data": [{"name": "MAD", "value": 7717.0}, {"name": "SP", "value": 662.0}, {"name": "VOCALOID", "value": 663.0}, {"name": "XY", "value": 677.0}, {"name": "MV", "value": 5403.0}, {"name": "THE", "value": 7633.0}, {"name": "ASMR", "value": 692.0}, {"name": "WORLD", "value": 693.0}, {"name": "LOVE", "value": 2228.0}, {"name": "IT", "value": 1652.0}, {"name": "HD", "value": 710.0}, {"name": "GTA5", "value": 716.0}, {"name": "ME", "value": 1650.0}, {"name": "KAITO", "value": 747.0}, {"name": "ONE", "value": 749.0}, {"name": "DOTA", "value": 758.0}, {"name": "USF4", "value": 762.0}, {"name": "DOTA2", "value": 3067.0}, {"name": "UTAU", "value": 772.0}, {"name": "IA", "value": 774.0}, {"name": "PC", "value": 777.0}, {"name": "LET", "value": 780.0}, {"name": "COVER", "value": 782.0}, {"name": "DLC", "value": 783.0}, {"name": "SD", "value": 813.0}, {"name": "TFBOYS", "value": 818.0}, {"name": "OL", "value": 856.0}, {"name": "P3", "value": 858.0}, {"name": "NO", "value": 859.0}, {"name": "PS4", "value": 866.0}, {"name": "PSV", "value": 868.0}, {"name": "AKB", "value": 869.0}, {"name": "MY", "value": 877.0}, {"name": "OSU", "value": 1869.0}, {"name": "LIVE", "value": 2005.0}, {"name": "AND", "value": 915.0}, {"name": "CG", "value": 917.0}, {"name": "GUMI", "value": 925.0}, {"name": "JOJO", "value": 956.0}, {"name": "BOSS", "value": 983.0}, {"name": "DNF", "value": 1008.0}, {"name": "RPG", "value": 1015.0}, {"name": "PART", "value": 2363.0}, {"name": "CM", "value": 1054.0}, {"name": "P2", "value": 1091.0}, {"name": "TV", "value": 1100.0}, {"name": "MUGEN", "value": 3234.0}, {"name": "IN", "value": 1129.0}, {"name": "TO", "value": 1189.0}, {"name": "LOL", "value": 6022.0}, {"name": "YOU", "value": 2460.0}, {"name": "FC", "value": 1248.0}, {"name": "P1", "value": 1273.0}, {"name": "BE", "value": 1273.0}, {"name": "OP", "value": 6783.0}, {"name": "UP", "value": 3697.0}, {"name": "MINECRAFT", "value": 6983.0}, {"name": "BY", "value": 1872.0}, {"name": "OF", "value": 1971.0}, {"name": "VER", "value": 2091.0}, {"name": "WANNA", "value": 2332.0}, {"name": "MC", "value": 2342.0}, {"name": "BGM", "value": 2383.0}, {"name": "ED", "value": 2641.0}, {"name": "APH", "value": 2855.0}, {"name": "AMV", "value": 2975.0}, {"name": "VS", "value": 8667.0}, {"name": "PV", "value": 4301.0}, {"name": "MMD", "value": 14501.0}, {"name": "\u5144\u5f1f", "value": 1197.0}, {"name": "\u9a91\u58eb", "value": 1198.0}, {"name": "\u94a2\u7434", "value": 1199.0}, {"name": "\u6280\u5de7", "value": 1201.0}, {"name": "\u4f20\u5947", "value": 1211.0}, {"name": "\u821e\u8e48", "value": 1227.0}, {"name": "\u6218\u58eb", "value": 1245.0}, {"name": "\u5730\u72f1", "value": 1253.0}, {"name": "\u914d\u97f3", "value": 1257.0}, {"name": "\u89d2\u8272", "value": 1273.0}, {"name": "\u602a\u7269", "value": 1310.0}, {"name": "\u5168\u7a0b", "value": 1319.0}, {"name": "\u730e\u4eba", "value": 1319.0}, {"name": "\u9ad8\u80fd", "value": 1324.0}, {"name": "\u5b98\u65b9", "value": 1328.0}, {"name": "\u7269\u8bed", "value": 1333.0}, {"name": "\u5e7f\u544a", "value": 1334.0}, {"name": "\u98ce\u66b4", "value": 1346.0}, {"name": "\u7ecf\u5178", "value": 1347.0}, {"name": "\u661f\u9645", "value": 1407.0}, {"name": "\u7eaa\u5ff5", "value": 1448.0}, {"name": "\u5927\u5e08", "value": 1457.0}, {"name": "\u5e7b\u60f3", "value": 1467.0}, {"name": "\u8282\u64cd", "value": 1468.0}, {"name": "\u9884\u544a\u7247", "value": 1469.0}, {"name": "\u65f6\u523b", "value": 1490.0}, {"name": "\u4eba\u751f", "value": 1497.0}, {"name": "\u6295\u7a3f", "value": 1521.0}, {"name": "\u7d20\u6750", "value": 1554.0}, {"name": "\u4fe1\u6761", "value": 1556.0}, {"name": "\u5ba3\u4f20\u7247", "value": 1569.0}, {"name": "\u59b9\u5b50", "value": 1581.0}, {"name": "\u5b8c\u6574\u7248", "value": 1595.0}, {"name": "\u4e2a\u4eba", "value": 1608.0}, {"name": "\u6b4c\u66f2", "value": 1659.0}, {"name": "\u65b0\u4eba", "value": 1682.0}, {"name": "\u6e38\u620f\u738b", "value": 1708.0}, {"name": "\u6559\u7a0b", "value": 1712.0}, {"name": "\u5927\u4f1a", "value": 1775.0}, {"name": "\u6559\u5b66", "value": 1783.0}, {"name": "\u53e3\u888b\u5996\u602a", "value": 1793.0}, {"name": "\u82b1\u7d6e", "value": 1843.0}, {"name": "\u523a\u5ba2", "value": 1905.0}, {"name": "\u6545\u4e8b", "value": 1978.0}, {"name": "\u9b54\u6cd5", "value": 1996.0}, {"name": "\u52a8\u6f2b", "value": 2021.0}, {"name": "\u65b0\u624b", "value": 2046.0}, {"name": "\u9b3c\u755c", "value": 2056.0}, {"name": "\u5b57\u5e55\u7ec4", "value": 2089.0}, {"name": "\u4f5c\u4e1a", "value": 2095.0}, {"name": "\u7089\u77f3", "value": 2098.0}, {"name": "\u4e2d\u6587\u5b57\u5e55", "value": 2161.0}, {"name": "\u539f\u521b", "value": 2180.0}, {"name": "\u6a21\u5f0f", "value": 2258.0}, {"name": "\u526a\u8f91", "value": 2389.0}, {"name": "\u7535\u5f71", "value": 2549.0}, {"name": "\u7cbe\u5f69", "value": 2560.0}, {"name": "\u751f\u8089", "value": 2663.0}, {"name": "\u97f3\u4e50", "value": 2698.0}, {"name": "\u51fa\u54c1", "value": 2780.0}, {"name": "\u96c6\u9526", "value": 3000.0}, {"name": "\u52a8\u753b", "value": 3141.0}, {"name": "\u6218\u4e89", "value": 3267.0}, {"name": "\u4f20\u8bf4", "value": 3497.0}, {"name": "\u5b57\u5e55", "value": 3543.0}, {"name": "\u89c6\u89d2", "value": 3655.0}, {"name": "\u5c11\u5973", "value": 3924.0}, {"name": "\u5766\u514b", "value": 4094.0}, {"name": "\u5267\u60c5", "value": 4204.0}, {"name": "\u521d\u97f3", "value": 4570.0}, {"name": "\u6d41\u7a0b", "value": 5504.0}, {"name": "\u89c6\u9891", "value": 11940.0}, {"name": "\u6e38\u620f", "value": 13259.0}, {"name": "\u4e16\u754c", "value": 15170.0}, {"name": "\u5b9e\u51b5", "value": 24999.0}, {"name": "\u4e0d\u80fd", "value": 783.0}, {"name": "\u7cbe\u9009", "value": 788.0}, {"name": "\u56de\u987e", "value": 801.0}, {"name": "\u6697\u9ed1", "value": 807.0}, {"name": "\u6f14\u594f", "value": 829.0}, {"name": "\u4f5c\u6218", "value": 841.0}, {"name": "\u5f00\u59cb", "value": 857.0}, {"name": "\u91c7\u8bbf", "value": 861.0}, {"name": "\u6000\u65e7", "value": 881.0}, {"name": "\u5bf9\u51b3", "value": 899.0}, {"name": "\u65e0\u9650", "value": 913.0}, {"name": "\u6765\u81ea", "value": 947.0}, {"name": "\u7ec3\u4e60", "value": 961.0}, {"name": "\u9003\u751f", "value": 965.0}, {"name": "\u53ef\u7231", "value": 975.0}, {"name": "\u4e0d\u4f1a", "value": 997.0}, {"name": "\u56de\u5fc6", "value": 1078.0}, {"name": "\u6b7b\u4ea1", "value": 1157.0}, {"name": "\u6cbb\u6108", "value": 1201.0}, {"name": "\u641e\u7b11", "value": 1253.0}, {"name": "\u6ca1\u6709", "value": 1297.0}, {"name": "\u63a8\u8350", "value": 1410.0}, {"name": "\u4f5c\u6b7b", "value": 1426.0}, {"name": "\u7ed3\u5408", "value": 1453.0}, {"name": "\u604b\u7231", "value": 1460.0}, {"name": "\u4f7f\u547d", "value": 1462.0}, {"name": "\u77e5\u9053", "value": 1517.0}, {"name": "\u6c42\u751f", "value": 1587.0}, {"name": "\u559c\u6b22", "value": 1620.0}, {"name": "\u53ec\u5524", "value": 1675.0}, {"name": "\u6f14\u793a", "value": 1687.0}, {"name": "\u4ecb\u7ecd", "value": 1772.0}, {"name": "\u642c\u8fd0", "value": 2049.0}, {"name": "\u8bd5\u73a9", "value": 2094.0}, {"name": "\u8fdb\u51fb", "value": 2305.0}, {"name": "\u9017\u6bd4", "value": 2483.0}, {"name": "\u81ea\u5236", "value": 2575.0}, {"name": "\u542c\u6b4c", "value": 2923.0}, {"name": "\u5b8c\u7ed3", "value": 3508.0}, {"name": "\u9884\u544a", "value": 3852.0}, {"name": "\u653b\u7565", "value": 3959.0}, {"name": "\u5408\u96c6", "value": 4410.0}, {"name": "\u751f\u5b58", "value": 5291.0}, {"name": "\u7ffb\u5531", "value": 6762.0}, {"name": "\u89e3\u8bf4", "value": 22326.0}]}
+{
+  "data": [
+    {
+      "name": "MAD",
+      "value": 7717.0
+    },
+    {
+      "name": "SP",
+      "value": 662.0
+    },
+    {
+      "name": "VOCALOID",
+      "value": 663.0
+    },
+    {
+      "name": "XY",
+      "value": 677.0
+    },
+    {
+      "name": "MV",
+      "value": 5403.0
+    },
+    {
+      "name": "THE",
+      "value": 7633.0
+    },
+    {
+      "name": "ASMR",
+      "value": 692.0
+    },
+    {
+      "name": "WORLD",
+      "value": 693.0
+    },
+    {
+      "name": "LOVE",
+      "value": 2228.0
+    },
+    {
+      "name": "IT",
+      "value": 1652.0
+    },
+    {
+      "name": "HD",
+      "value": 710.0
+    },
+    {
+      "name": "GTA5",
+      "value": 716.0
+    },
+    {
+      "name": "ME",
+      "value": 1650.0
+    },
+    {
+      "name": "KAITO",
+      "value": 747.0
+    },
+    {
+      "name": "ONE",
+      "value": 749.0
+    },
+    {
+      "name": "DOTA",
+      "value": 758.0
+    },
+    {
+      "name": "USF4",
+      "value": 762.0
+    },
+    {
+      "name": "DOTA2",
+      "value": 3067.0
+    },
+    {
+      "name": "UTAU",
+      "value": 772.0
+    },
+    {
+      "name": "IA",
+      "value": 774.0
+    },
+    {
+      "name": "PC",
+      "value": 777.0
+    },
+    {
+      "name": "LET",
+      "value": 780.0
+    },
+    {
+      "name": "COVER",
+      "value": 782.0
+    },
+    {
+      "name": "DLC",
+      "value": 783.0
+    },
+    {
+      "name": "SD",
+      "value": 813.0
+    },
+    {
+      "name": "TFBOYS",
+      "value": 818.0
+    },
+    {
+      "name": "OL",
+      "value": 856.0
+    },
+    {
+      "name": "P3",
+      "value": 858.0
+    },
+    {
+      "name": "NO",
+      "value": 859.0
+    },
+    {
+      "name": "PS4",
+      "value": 866.0
+    },
+    {
+      "name": "PSV",
+      "value": 868.0
+    },
+    {
+      "name": "AKB",
+      "value": 869.0
+    },
+    {
+      "name": "MY",
+      "value": 877.0
+    },
+    {
+      "name": "OSU",
+      "value": 1869.0
+    },
+    {
+      "name": "LIVE",
+      "value": 2005.0
+    },
+    {
+      "name": "AND",
+      "value": 915.0
+    },
+    {
+      "name": "CG",
+      "value": 917.0
+    },
+    {
+      "name": "GUMI",
+      "value": 925.0
+    },
+    {
+      "name": "JOJO",
+      "value": 956.0
+    },
+    {
+      "name": "BOSS",
+      "value": 983.0
+    },
+    {
+      "name": "DNF",
+      "value": 1008.0
+    },
+    {
+      "name": "RPG",
+      "value": 1015.0
+    },
+    {
+      "name": "PART",
+      "value": 2363.0
+    },
+    {
+      "name": "CM",
+      "value": 1054.0
+    },
+    {
+      "name": "P2",
+      "value": 1091.0
+    },
+    {
+      "name": "TV",
+      "value": 1100.0
+    },
+    {
+      "name": "MUGEN",
+      "value": 3234.0
+    },
+    {
+      "name": "IN",
+      "value": 1129.0
+    },
+    {
+      "name": "TO",
+      "value": 1189.0
+    },
+    {
+      "name": "LOL",
+      "value": 6022.0
+    },
+    {
+      "name": "YOU",
+      "value": 2460.0
+    },
+    {
+      "name": "FC",
+      "value": 1248.0
+    },
+    {
+      "name": "P1",
+      "value": 1273.0
+    },
+    {
+      "name": "BE",
+      "value": 1273.0
+    },
+    {
+      "name": "OP",
+      "value": 6783.0
+    },
+    {
+      "name": "UP",
+      "value": 3697.0
+    },
+    {
+      "name": "MINECRAFT",
+      "value": 6983.0
+    },
+    {
+      "name": "BY",
+      "value": 1872.0
+    },
+    {
+      "name": "OF",
+      "value": 1971.0
+    },
+    {
+      "name": "VER",
+      "value": 2091.0
+    },
+    {
+      "name": "WANNA",
+      "value": 2332.0
+    },
+    {
+      "name": "MC",
+      "value": 2342.0
+    },
+    {
+      "name": "BGM",
+      "value": 2383.0
+    },
+    {
+      "name": "ED",
+      "value": 2641.0
+    },
+    {
+      "name": "APH",
+      "value": 2855.0
+    },
+    {
+      "name": "AMV",
+      "value": 2975.0
+    },
+    {
+      "name": "VS",
+      "value": 8667.0
+    },
+    {
+      "name": "PV",
+      "value": 4301.0
+    },
+    {
+      "name": "MMD",
+      "value": 14501.0
+    },
+    {
+      "name": "\u5144\u5f1f",
+      "value": 1197.0
+    },
+    {
+      "name": "\u9a91\u58eb",
+      "value": 1198.0
+    },
+    {
+      "name": "\u94a2\u7434",
+      "value": 1199.0
+    },
+    {
+      "name": "\u6280\u5de7",
+      "value": 1201.0
+    },
+    {
+      "name": "\u4f20\u5947",
+      "value": 1211.0
+    },
+    {
+      "name": "\u821e\u8e48",
+      "value": 1227.0
+    },
+    {
+      "name": "\u6218\u58eb",
+      "value": 1245.0
+    },
+    {
+      "name": "\u5730\u72f1",
+      "value": 1253.0
+    },
+    {
+      "name": "\u914d\u97f3",
+      "value": 1257.0
+    },
+    {
+      "name": "\u89d2\u8272",
+      "value": 1273.0
+    },
+    {
+      "name": "\u602a\u7269",
+      "value": 1310.0
+    },
+    {
+      "name": "\u5168\u7a0b",
+      "value": 1319.0
+    },
+    {
+      "name": "\u730e\u4eba",
+      "value": 1319.0
+    },
+    {
+      "name": "\u9ad8\u80fd",
+      "value": 1324.0
+    },
+    {
+      "name": "\u5b98\u65b9",
+      "value": 1328.0
+    },
+    {
+      "name": "\u7269\u8bed",
+      "value": 1333.0
+    },
+    {
+      "name": "\u5e7f\u544a",
+      "value": 1334.0
+    },
+    {
+      "name": "\u98ce\u66b4",
+      "value": 1346.0
+    },
+    {
+      "name": "\u7ecf\u5178",
+      "value": 1347.0
+    },
+    {
+      "name": "\u661f\u9645",
+      "value": 1407.0
+    },
+    {
+      "name": "\u7eaa\u5ff5",
+      "value": 1448.0
+    },
+    {
+      "name": "\u5927\u5e08",
+      "value": 1457.0
+    },
+    {
+      "name": "\u5e7b\u60f3",
+      "value": 1467.0
+    },
+    {
+      "name": "\u8282\u64cd",
+      "value": 1468.0
+    },
+    {
+      "name": "\u9884\u544a\u7247",
+      "value": 1469.0
+    },
+    {
+      "name": "\u65f6\u523b",
+      "value": 1490.0
+    },
+    {
+      "name": "\u4eba\u751f",
+      "value": 1497.0
+    },
+    {
+      "name": "\u6295\u7a3f",
+      "value": 1521.0
+    },
+    {
+      "name": "\u7d20\u6750",
+      "value": 1554.0
+    },
+    {
+      "name": "\u4fe1\u6761",
+      "value": 1556.0
+    },
+    {
+      "name": "\u5ba3\u4f20\u7247",
+      "value": 1569.0
+    },
+    {
+      "name": "\u59b9\u5b50",
+      "value": 1581.0
+    },
+    {
+      "name": "\u5b8c\u6574\u7248",
+      "value": 1595.0
+    },
+    {
+      "name": "\u4e2a\u4eba",
+      "value": 1608.0
+    },
+    {
+      "name": "\u6b4c\u66f2",
+      "value": 1659.0
+    },
+    {
+      "name": "\u65b0\u4eba",
+      "value": 1682.0
+    },
+    {
+      "name": "\u6e38\u620f\u738b",
+      "value": 1708.0
+    },
+    {
+      "name": "\u6559\u7a0b",
+      "value": 1712.0
+    },
+    {
+      "name": "\u5927\u4f1a",
+      "value": 1775.0
+    },
+    {
+      "name": "\u6559\u5b66",
+      "value": 1783.0
+    },
+    {
+      "name": "\u53e3\u888b\u5996\u602a",
+      "value": 1793.0
+    },
+    {
+      "name": "\u82b1\u7d6e",
+      "value": 1843.0
+    },
+    {
+      "name": "\u523a\u5ba2",
+      "value": 1905.0
+    },
+    {
+      "name": "\u6545\u4e8b",
+      "value": 1978.0
+    },
+    {
+      "name": "\u9b54\u6cd5",
+      "value": 1996.0
+    },
+    {
+      "name": "\u52a8\u6f2b",
+      "value": 2021.0
+    },
+    {
+      "name": "\u65b0\u624b",
+      "value": 2046.0
+    },
+    {
+      "name": "\u9b3c\u755c",
+      "value": 2056.0
+    },
+    {
+      "name": "\u5b57\u5e55\u7ec4",
+      "value": 2089.0
+    },
+    {
+      "name": "\u4f5c\u4e1a",
+      "value": 2095.0
+    },
+    {
+      "name": "\u7089\u77f3",
+      "value": 2098.0
+    },
+    {
+      "name": "\u4e2d\u6587\u5b57\u5e55",
+      "value": 2161.0
+    },
+    {
+      "name": "\u539f\u521b",
+      "value": 2180.0
+    },
+    {
+      "name": "\u6a21\u5f0f",
+      "value": 2258.0
+    },
+    {
+      "name": "\u526a\u8f91",
+      "value": 2389.0
+    },
+    {
+      "name": "\u7535\u5f71",
+      "value": 2549.0
+    },
+    {
+      "name": "\u7cbe\u5f69",
+      "value": 2560.0
+    },
+    {
+      "name": "\u751f\u8089",
+      "value": 2663.0
+    },
+    {
+      "name": "\u97f3\u4e50",
+      "value": 2698.0
+    },
+    {
+      "name": "\u51fa\u54c1",
+      "value": 2780.0
+    },
+    {
+      "name": "\u96c6\u9526",
+      "value": 3000.0
+    },
+    {
+      "name": "\u52a8\u753b",
+      "value": 3141.0
+    },
+    {
+      "name": "\u6218\u4e89",
+      "value": 3267.0
+    },
+    {
+      "name": "\u4f20\u8bf4",
+      "value": 3497.0
+    },
+    {
+      "name": "\u5b57\u5e55",
+      "value": 3543.0
+    },
+    {
+      "name": "\u89c6\u89d2",
+      "value": 3655.0
+    },
+    {
+      "name": "\u5c11\u5973",
+      "value": 3924.0
+    },
+    {
+      "name": "\u5766\u514b",
+      "value": 4094.0
+    },
+    {
+      "name": "\u5267\u60c5",
+      "value": 4204.0
+    },
+    {
+      "name": "\u521d\u97f3",
+      "value": 4570.0
+    },
+    {
+      "name": "\u6d41\u7a0b",
+      "value": 5504.0
+    },
+    {
+      "name": "\u89c6\u9891",
+      "value": 11940.0
+    },
+    {
+      "name": "\u6e38\u620f",
+      "value": 13259.0
+    },
+    {
+      "name": "\u4e16\u754c",
+      "value": 15170.0
+    },
+    {
+      "name": "\u5b9e\u51b5",
+      "value": 24999.0
+    },
+    {
+      "name": "\u4e0d\u80fd",
+      "value": 783.0
+    },
+    {
+      "name": "\u7cbe\u9009",
+      "value": 788.0
+    },
+    {
+      "name": "\u56de\u987e",
+      "value": 801.0
+    },
+    {
+      "name": "\u6697\u9ed1",
+      "value": 807.0
+    },
+    {
+      "name": "\u6f14\u594f",
+      "value": 829.0
+    },
+    {
+      "name": "\u4f5c\u6218",
+      "value": 841.0
+    },
+    {
+      "name": "\u5f00\u59cb",
+      "value": 857.0
+    },
+    {
+      "name": "\u91c7\u8bbf",
+      "value": 861.0
+    },
+    {
+      "name": "\u6000\u65e7",
+      "value": 881.0
+    },
+    {
+      "name": "\u5bf9\u51b3",
+      "value": 899.0
+    },
+    {
+      "name": "\u65e0\u9650",
+      "value": 913.0
+    },
+    {
+      "name": "\u6765\u81ea",
+      "value": 947.0
+    },
+    {
+      "name": "\u7ec3\u4e60",
+      "value": 961.0
+    },
+    {
+      "name": "\u9003\u751f",
+      "value": 965.0
+    },
+    {
+      "name": "\u53ef\u7231",
+      "value": 975.0
+    },
+    {
+      "name": "\u4e0d\u4f1a",
+      "value": 997.0
+    },
+    {
+      "name": "\u56de\u5fc6",
+      "value": 1078.0
+    },
+    {
+      "name": "\u6b7b\u4ea1",
+      "value": 1157.0
+    },
+    {
+      "name": "\u6cbb\u6108",
+      "value": 1201.0
+    },
+    {
+      "name": "\u641e\u7b11",
+      "value": 1253.0
+    },
+    {
+      "name": "\u6ca1\u6709",
+      "value": 1297.0
+    },
+    {
+      "name": "\u63a8\u8350",
+      "value": 1410.0
+    },
+    {
+      "name": "\u4f5c\u6b7b",
+      "value": 1426.0
+    },
+    {
+      "name": "\u7ed3\u5408",
+      "value": 1453.0
+    },
+    {
+      "name": "\u604b\u7231",
+      "value": 1460.0
+    },
+    {
+      "name": "\u4f7f\u547d",
+      "value": 1462.0
+    },
+    {
+      "name": "\u77e5\u9053",
+      "value": 1517.0
+    },
+    {
+      "name": "\u6c42\u751f",
+      "value": 1587.0
+    },
+    {
+      "name": "\u559c\u6b22",
+      "value": 1620.0
+    },
+    {
+      "name": "\u53ec\u5524",
+      "value": 1675.0
+    },
+    {
+      "name": "\u6f14\u793a",
+      "value": 1687.0
+    },
+    {
+      "name": "\u4ecb\u7ecd",
+      "value": 1772.0
+    },
+    {
+      "name": "\u642c\u8fd0",
+      "value": 2049.0
+    },
+    {
+      "name": "\u8bd5\u73a9",
+      "value": 2094.0
+    },
+    {
+      "name": "\u8fdb\u51fb",
+      "value": 2305.0
+    },
+    {
+      "name": "\u9017\u6bd4",
+      "value": 2483.0
+    },
+    {
+      "name": "\u81ea\u5236",
+      "value": 2575.0
+    },
+    {
+      "name": "\u542c\u6b4c",
+      "value": 2923.0
+    },
+    {
+      "name": "\u5b8c\u7ed3",
+      "value": 3508.0
+    },
+    {
+      "name": "\u9884\u544a",
+      "value": 3852.0
+    },
+    {
+      "name": "\u653b\u7565",
+      "value": 3959.0
+    },
+    {
+      "name": "\u5408\u96c6",
+      "value": 4410.0
+    },
+    {
+      "name": "\u751f\u5b58",
+      "value": 5291.0
+    },
+    {
+      "name": "\u7ffb\u5531",
+      "value": 6762.0
+    },
+    {
+      "name": "\u89e3\u8bf4",
+      "value": 22326.0
+    },
+    {
+      "name": "\u4e1c\u65b9",
+      "value": 5973.0
+    }
+  ]
+}

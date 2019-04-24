@@ -1,490 +1,585 @@
 {
   "data": [
-                {
-                    "name": "动画",
-                    "itemStyle": {
-                        "color": "#da0d68"
-                    },
-                    "children": [
-                        {
-                            "name": "MAD·AMV",
-                            "value": 260706,
-                            "itemStyle": {
-                                "color": "#CD1076"
-                            }
-                        },
-                        {
-                            "name": "MMD·3D",
-                            "value": 316938,
-                            "itemStyle": {
-                                "color": "#e0719c"
-                            }
-                        },
-                        {
-                            "name": "短片·手书·配音",
-                            "value": 170088,
-                            "itemStyle": {
-                                "color": "#FF1493"
-                            }
-
-                        },
-                        {
-                            "name": "综合",
-                            "value": 536073,
-                            "itemStyle": {
-                                "color": "#ef5a78"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "番剧",
-                    "itemStyle": {
-                        "color": "#da1d23"
-                    },
-                    "children": [
-                        {
-                            "name": "连载动画",
-                            "value": 26412,
-                            "itemStyle": {
-                                "color": "#f7f1bd"
-                            }
-                        },
-                        {
-                            "name": "完结动画",
-                            "value": 16944,
-                            "itemStyle": {
-                                "color": "#dd4c51"
-                            }
-                        },
-                        {
-                            "name": "资讯",
-                            "value": 16203,
-                            "itemStyle": {
-                                "color": "#3e0317"
-                            }
-                        },
-                        {
-                            "name": "官方延伸",
-                            "value": 101324,
-                            "itemStyle": {
-                                "color": "#e62969"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "音乐",
-                    "children": [
-                        {
-                            "name": "原创音乐",
-                            "value": 35141,
-                            "itemStyle": {
-                                "color": "#AEEEEE"
-                            }
-                        },
-                        {
-                            "name": "翻唱",
-                            "value": 475047,
-                            "itemStyle": {
-                                "color": "#7AC5CD"
-                            }
-                        },
-                        {
-                            "name": "VOCALOID·UTAU",
-                            "value": 167061,
-                            "itemStyle": {
-                                "color": "#53868B"
-                            }
-                        },
-                        {
-                            "name": "演奏",
-                            "value": 366836,
-                            "itemStyle": {
-                                "color": "#00C5CD"
-                            }
-                        },
-                        {
-                            "name": "三次元音乐",
-                            "value": 545488,
-                            "itemStyle": {
-                                "color": "#00E5EE"
-                            }
-                        },
-                        {
-                            "name": "OP/ED/OST",
-                            "value": 57377,
-                            "itemStyle": {
-                                "color": "#008B8B"
-                            }
-                        },
-                        {
-                            "name": "音乐选集",
-                            "value": 601663,
-                            "itemStyle": {
-                                "color": "#528B8B"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "游戏",
-                    "children": [
-                        {
-                            "name": "单机游戏",
-                            "value": 3230160,
-                            "itemStyle": {
-                                "color": "#EE8262"
-                            }
-                        },
-                        {
-                            "name": "电子竞技",
-                            "value": 1460940,
-                            "itemStyle": {
-                                "color": "#FF8C69"
-                            }
-                        },
-                        {
-                            "name": "手机游戏",
-                            "value": 1876619,
-                            "itemStyle": {
-                                "color": "#CD7054"
-                            }
-                        },
-                        {
-                            "name": "网络游戏",
-                            "value": 2024054,
-                            "itemStyle": {
-                                "color": "#8B4C39"
-                            }
-                        },
-                        {
-                            "name": "桌游棋牌",
-                            "value": 253088,
-                            "itemStyle": {
-                                "color": "#FFA07A"
-                            }
-                        },
-                        {
-                            "name": "GMV",
-                            "value": 90353,
-                            "itemStyle": {
-                                "color": "#EE9572"
-                            }
-                        },
-                        {
-                            "name": "音游",
-                            "value": 247739,
-                            "itemStyle": {
-                                "color": "#CD8162"
-                            }
-                        },
-                        {
-                            "name": "Mugen",
-                            "value": 56122,
-                            "itemStyle": {
-                                "color": "#8B5742"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "科技",
-                    "children": [
-                        {
-                            "name": "趣味科普人文",
-                            "value": 289149,
-                            "itemStyle": {
-                                "color": "#7FFFD4"
-                            }
-                        },
-                        {
-                            "name": "野生技术协会",
-                            "value": 283591,
-                            "itemStyle": {
-                                "color": "#66CDAA"
-                            }
-                        },
-                        {
-                            "name": "演讲· 公开课",
-                            "value": 399641,
-                            "itemStyle": {
-                                "color": "#9BCD9B"
-                            }
-                        },
-                        {
-                            "name": "星海",
-                            "value": 87745,
-                            "itemStyle": {
-                                "color": "#458B74"
-                            }
-                        },
-                        {
-                            "name": "数码",
-                            "value": 309927,
-                            "itemStyle": {
-                                "color": "#9BCD9B"
-                            }
-                        },
-                        {
-                            "name": "机械",
-                            "value": 118809,
-                            "itemStyle": {
-                                "color": "#528B8B"
-                            }
-                        },
-                        {
-                            "name": "汽车",
-                            "value": 157647,
-                            "itemStyle": {
-                                "color": "#76EEC6"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "生活",
-                    "children": [
-                        {
-                            "name": "搞笑",
-                            "value": 532880
-                        },
-                        {
-                            "name": "日常",
-                            "value": 2161981
-                        },
-                        {
-                            "name": "美食圈",
-                            "value": 510612
-                        },
-                        {
-                            "name": "动物圈",
-                            "value": 468024
-                        },
-                        {
-                            "name": "手工",
-                            "value": 264478
-                        },
-                        {
-                            "name": "绘画",
-                            "value": 220371
-                        },
-                        {
-                            "name": "运动",
-                            "value": 413536
-                        },
-                        {
-                            "name": "其他",
-                            "value": 645985
-                        }
-                    ]
-                },
-                {
-                    "name": "娱乐",
-                    "children": [
-                        {
-                            "name": "综艺",
-                            "value": 516725
-                        },
-                        {
-                            "name": "明星",
-                            "value": 1260983
-                        },
-                        {
-                            "name": "Korea相关",
-                            "value": 907864
-                        }
-                    ]
-                },
-                {
-                    "name": "其他",
-                    "children": [
-                        {
-                            "name": "影视",
-                            "children": [
-                                {
-                                    "name": "影视杂谈",
-                                    "value": 192528
-                                },
-                                {
-                                    "name": "影视剪辑",
-                                    "value": 1271901
-                                },
-                                {
-                                    "name": "短片",
-                                    "value": 168262
-                                },
-                                {
-                                    "name": "预告 资讯",
-                                    "value": 188118
-                                },
-                                {
-                                    "name": "特摄",
-                                    "value": 70188
-                                }
-                            ]
-                        },
-                        {
-                            "name": "纪录片",
-                            "children": [
-                                {
-                                    "name": "人文历史",
-                                    "value": 70360
-                                },
-                                {
-                                    "name": "科学·探索·自然",
-                                    "value": 28600
-                                },
-                                {
-                                    "name": "军事",
-                                    "value": 9655
-                                },
-                                {
-                                    "name": "社会·美食·旅行",
-                                    "value": 42549
-                                }
-                            ]
-                        },
-                        {
-                            "name": "电影",
-                            "children": [
-                                {
-                                    "name": "华语电影",
-                                    "value": 3639
-                                },
-                                {
-                                    "name": "欧美电影",
-                                    "value": 728
-                                },
-                                {
-                                    "name": "日本电影",
-                                    "value": 54
-                                },
-                                {
-                                    "name": "其他国家",
-                                    "value": 132
-                                }
-                            ]
-                        },
-                        {
-                            "name": "广告",
-                            "value": 120374
-                        },
-                        {
-                            "name": "电视剧",
-                            "children": [
-                                {
-                                    "name": "国产剧",
-                                    "value": 4940
-                                },
-                                {
-                                    "name": "海外剧",
-                                    "value": 650
-                                }
-                            ]
-                        },
-                        {
-                            "name": "时尚",
-                            "children": [
-                                {
-                                    "name": "美妆",
-                                    "value": 335063
-                                },
-                                {
-                                    "name": "服饰",
-                                    "value": 106799
-                                },
-                                {
-                                    "name": "健身",
-                                    "value": 61788
-                                },
-                                {
-                                    "name": "资讯",
-                                    "value": 52475
-                                }
-                            ]
-                        },
-                        {
-                            "name": "鬼畜",
-                            "children": [
-                                {
-                                    "name": "鬼畜调教",
-                                    "value": 84730
-                                },
-                                {
-                                    "name": "音MAD",
-                                    "value": 43678
-                                },
-                                {
-                                    "name": "人力VOCALOID",
-                                    "value": 21367
-                                },
-                                {
-                                    "name": "教程演示",
-                                    "value": 886
-                                }
-                            ]
-                        },
-                        {
-                            "name": "时尚",
-                            "children": [
-                                {
-                                    "name": "美妆",
-                                    "value": 335063
-                                },
-                                {
-                                    "name": "服饰",
-                                    "value": 106799
-                                },
-                                {
-                                    "name": "健身",
-                                    "value": 61788
-                                },
-                                {
-                                    "name": "资讯",
-                                    "value": 52475
-                                }
-                            ]
-                        },
-                        {
-                            "name": "国创",
-                            "children": [
-                                {
-                                    "name": "国产动画",
-                                    "value": 12168
-                                },
-                                {
-                                    "name": "国产原创相关",
-                                    "value": 71331
-                                },
-                                {
-                                    "name": "布袋戏",
-                                    "value": 20944
-                                },
-                                {
-                                    "name": "资讯",
-                                    "value": 4034
-                                }
-                            ]
-                        },
-                        {
-                            "name": "舞蹈",
-                            "children": [
-                                {
-                                    "name": "宅舞",
-                                    "value": 141407
-                                },
-                                {
-                                    "name": "三次元舞蹈",
-                                    "value": 184261
-                                },
-                                {
-                                    "name": "舞蹈教程",
-                                    "value": 16447
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+    {
+      "name": "音乐",
+      "itemStyle": {
+        "color": "hsl(345,75%,50%)"
+      },
+      "children": [
+        {
+          "name": "原创音乐",
+          "value": 35141,
+          "itemStyle": {
+            "color": "hsl(345,75%,50%)"
+          }
+        },
+        {
+          "name": "翻唱",
+          "value": 475047,
+          "itemStyle": {
+            "color": "hsl(355,75%,50%)"
+          }
+        },
+        {
+          "name": "VOCALOID·UTAU",
+          "value": 167061,
+          "itemStyle": {
+            "color": "hsl(2,75%,50%)"
+          }
+        },
+        {
+          "name": "演奏",
+          "value": 366836,
+          "itemStyle": {
+            "color": "hsl(8,75%,50%)"
+          }
+        },
+        {
+          "name": "三次元音乐",
+          "value": 545488,
+          "itemStyle": {
+            "color": "hsl(14,75%,50%)"
+          }
+        },
+        {
+          "name": "OP/ED/OST",
+          "value": 57377,
+          "itemStyle": {
+            "color": "hsl(15,75%,50%)"
+          }
+        },
+        {
+          "name": "音乐选集",
+          "value": 601663,
+          "itemStyle": {
+            "color": "hsl(20,75%,50%)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "影视",
+      "itemStyle": {
+        "color": "hsl(25,75%,60%)"
+      },
+      "children": [
+        {
+          "name": "影视杂谈",
+          "value": 192528,
+          "itemStyle": {
+            "color": "hsl(25,75%,60%)"
+          }
+        },
+        {
+          "name": "影视剪辑",
+          "value": 1271901,
+          "itemStyle": {
+            "color": "hsl(30,75%,60%)"
+          }
+        },
+        {
+          "name": "短片",
+          "value": 168262,
+          "itemStyle": {
+            "color": "hsl(35,75%,60%)"
+          }
+        },
+        {
+          "name": "预告 资讯",
+          "value": 188118,
+          "itemStyle": {
+            "color": "hsl(45,75%,60%)"
+          }
+        },
+        {
+          "name": "特摄",
+          "value": 70188,
+          "itemStyle": {
+            "color": "hsl(50,75%,60%)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "科技",
+      "itemStyle": {
+        "color": "hsl(55,60%,60%)"
+      },
+      "children": [
+        {
+          "name": "趣味科普人文",
+          "value": 289149,
+          "itemStyle": {
+            "color": "hsl(60,60%,60%)"
+          }
+        },
+        {
+          "name": "野生技术协会",
+          "value": 283591,
+          "itemStyle": {
+            "color": "hsl(64,60%,60%)"
+          }
+        },
+        {
+          "name": "演讲· 公开课",
+          "value": 399641,
+          "itemStyle": {
+            "color": "hsl(68,60%,60%)"
+          }
+        },
+        {
+          "name": "星海",
+          "value": 87745,
+          "itemStyle": {
+            "color": "hsl(72,60%,60%)"
+          }
+        },
+        {
+          "name": "数码",
+          "value": 309927,
+          "itemStyle": {
+            "color": "hsl(76,60%,60%)"
+          }
+        },
+        {
+          "name": "机械",
+          "value": 118809,
+          "itemStyle": {
+            "color": "hsl(80,60%,60%)"
+          }
+        },
+        {
+          "name": "汽车",
+          "value": 157647,
+          "itemStyle": {
+            "color": "hsl(84,60%,60%)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "娱乐",
+      "itemStyle": {
+        "color": "hsl(100,60%,60%)"
+      },
+      "children": [
+        {
+          "name": "综艺",
+          "value": 516725,
+          "itemStyle": {
+            "color": "hsl(92,60%,60%)"
+          }
+        },
+        {
+          "name": "明星",
+          "value": 1260983,
+          "itemStyle": {
+            "color": "hsl(108,50%,60%)"
+          }
+        },
+        {
+          "name": "Korea相关",
+          "value": 907864,
+          "itemStyle": {
+            "color": "hsl(120,50%,60%)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "游戏",
+      "itemStyle": {
+        "color": "hsl(136,60%,60%)"
+      },
+      "children": [
+        {
+          "name": "单机游戏",
+          "value": 3230160,
+          "itemStyle": {
+            "color": "hsl(124,60%,60%)"
+          }
+        },
+        {
+          "name": "电子竞技",
+          "value": 1460940,
+          "itemStyle": {
+            "color": "hsl(128,60%,60%)"
+          }
+        },
+        {
+          "name": "手机游戏",
+          "value": 1876619,
+          "itemStyle": {
+            "color": "hsl(132,60%,60%)"
+          }
+        },
+        {
+          "name": "网络游戏",
+          "value": 2024054,
+          "itemStyle": {
+            "color": "hsl(140,60%,60%)"
+          }
+        },
+        {
+          "name": "桌游棋牌",
+          "value": 253088,
+          "itemStyle": {
+            "color": "hsl(150,60%,60%)"
+          }
+        },
+        {
+          "name": "GMV",
+          "value": 90353,
+          "itemStyle": {
+            "color": "hsl(152,60%,60%)"
+          }
+        },
+        {
+          "name": "音游",
+          "value": 247739,
+          "itemStyle": {
+            "color": "hsl(156,60%,60%)"
+          }
+        },
+        {
+          "name": "Mugen",
+          "value": 56122,
+          "itemStyle": {
+            "color": "hsl(158,60%,60%)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "其他",
+      "itemStyle": {
+        "color": "hsl(175,50%,60%)"
+      },
+      "children": [
+        {
+          "name": "纪录片",
+          "itemStyle": {
+            "color": "hsl(162,50%,60%)"
+          },
+          "children": [
+            {
+              "name": "人文历史",
+              "value": 70360
+            },
+            {
+              "name": "科学·探索·自然",
+              "value": 28600
+            },
+            {
+              "name": "军事",
+              "value": 9655
+            },
+            {
+              "name": "社会·美食·旅行",
+              "value": 42549
+            }
+          ]
+        },
+        {
+          "name": "电影",
+          "itemStyle": {
+            "color": "hsl(166,50%,60%)"
+          },
+          "children": [
+            {
+              "name": "华语电影",
+              "value": 3639
+            },
+            {
+              "name": "欧美电影",
+              "value": 728
+            },
+            {
+              "name": "日本电影",
+              "value": 54
+            },
+            {
+              "name": "其他国家",
+              "value": 132
+            }
+          ]
+        },
+        {
+          "name": "广告",
+          "itemStyle": {
+            "color": "hsl(170,50%,60%)"
+          },
+          "value": 120374
+        },
+        {
+          "name": "电视剧",
+          "itemStyle": {
+            "color": "hsl(176,50%,60%)"
+          },
+          "children": [
+            {
+              "name": "国产剧",
+              "value": 4940
+            },
+            {
+              "name": "海外剧",
+              "value": 650
+            }
+          ]
+        },
+        {
+          "name": "时尚",
+          "itemStyle": {
+            "color": "hsl(180,50%,60%)"
+          },
+          "children": [
+            {
+              "name": "美妆",
+              "value": 335063
+            },
+            {
+              "name": "服饰",
+              "value": 106799
+            },
+            {
+              "name": "健身",
+              "value": 61788
+            },
+            {
+              "name": "资讯",
+              "value": 52475
+            }
+          ]
+        },
+        {
+          "name": "鬼畜",
+          "itemStyle": {
+            "color": "hsl(184,50%,60%)"
+          },
+          "children": [
+            {
+              "name": "鬼畜调教",
+              "value": 84730
+            },
+            {
+              "name": "音MAD",
+              "value": 43678
+            },
+            {
+              "name": "人力VOCALOID",
+              "value": 21367
+            },
+            {
+              "name": "教程演示",
+              "value": 886
+            }
+          ]
+        },
+        {
+          "name": "时尚",
+          "itemStyle": {
+            "color": "hsl(186,50%,60%)"
+          },
+          "children": [
+            {
+              "name": "美妆",
+              "value": 335063
+            },
+            {
+              "name": "服饰",
+              "value": 106799
+            },
+            {
+              "name": "健身",
+              "value": 61788
+            },
+            {
+              "name": "资讯",
+              "value": 52475
+            }
+          ]
+        },
+        {
+          "name": "国创",
+          "itemStyle": {
+            "color": "hsl(188,50%,60%)"
+          },
+          "children": [
+            {
+              "name": "国产动画",
+              "value": 12168
+            },
+            {
+              "name": "国产原创相关",
+              "value": 71331
+            },
+            {
+              "name": "布袋戏",
+              "value": 20944
+            },
+            {
+              "name": "资讯",
+              "value": 4034
+            }
+          ]
+        },
+        {
+          "name": "舞蹈",
+          "itemStyle": {
+            "color": "hsl(192,50%,60%)"
+          },
+          "children": [
+            {
+              "name": "宅舞",
+              "value": 141407
+            },
+            {
+              "name": "三次元舞蹈",
+              "value": 184261
+            },
+            {
+              "name": "舞蹈教程",
+              "value": 16447
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "动画",
+      "itemStyle": {
+        "color": "hsl(208,50%,50%)"
+      },
+      "children": [
+        {
+          "name": "番剧",
+          "itemStyle": {
+            "color": "hsl(196,75%,50%)"
+          },
+          "children": [
+            {
+              "name": "连载动画",
+              "value": 26412,
+              "itemStyle": {
+                "color": "hsl(200,75%,50%)"
+              }
+            },
+            {
+              "name": "完结动画",
+              "value": 16944,
+              "itemStyle": {
+                "color": "hsl(204,75%,50%)"
+              }
+            },
+            {
+              "name": "资讯",
+              "value": 16203,
+              "itemStyle": {
+                "color": "hsl(210,75%,50%)"
+              }
+            },
+            {
+              "name": "官方延伸",
+              "value": 101324,
+              "itemStyle": {
+                "color": "hsl(214,75%,50%)"
+              }
+            }
+          ]
+        },
+        {
+          "name": "MAD·AMV",
+          "value": 260706,
+          "itemStyle": {
+            "color": "hsl(200,75%,50%)"
+          }
+        },
+        {
+          "name": "MMD·3D",
+          "value": 316938,
+          "itemStyle": {
+            "color": "hsl(204,75%,50%)"
+          }
+        },
+        {
+          "name": "短片·手书·配音",
+          "value": 170088,
+          "itemStyle": {
+            "color": "hsl(208,60%,50%)"
+          }
+        },
+        {
+          "name": "综合",
+          "value": 536073,
+          "itemStyle": {
+            "color": "hsl(212,60%,50%)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "生活",
+      "itemStyle": {
+        "color": "hsl(220,50%,60%)"
+      },
+      "children": [
+        {
+          "name": "搞笑",
+          "value": 532880,
+          "itemStyle": {
+            "color": "hsl(216,50%,60%)"
+          }
+        },
+        {
+          "name": "日常",
+          "value": 2161981,
+          "itemStyle": {
+            "color": "hsl(224,50%,60%)"
+          }
+        },
+        {
+          "name": "美食圈",
+          "value": 510612,
+          "itemStyle": {
+            "color": "hsl(230,50%,60%)"
+          }
+        },
+        {
+          "name": "动物圈",
+          "value": 468024,
+          "itemStyle": {
+            "color": "hsl(236,50%,60%)"
+          }
+        },
+        {
+          "name": "手工",
+          "value": 264478,
+          "itemStyle": {
+            "color": "hsl(240,50%,60%)"
+          }
+        },
+        {
+          "name": "绘画",
+          "value": 220371,
+          "itemStyle": {
+            "color": "hsl(244,50%,60%)"
+          }
+        },
+        {
+          "name": "运动",
+          "value": 413536,
+          "itemStyle": {
+            "color": "hsl(248,50%,60%)"
+          }
+        },
+        {
+          "name": "其他",
+          "value": 645985,
+          "itemStyle": {
+            "color": "hsl(252,50%,60%)"
+          }
+        }
+      ]
+    }
+  ]
 }

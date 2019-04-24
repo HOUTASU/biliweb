@@ -34,7 +34,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'bdvs'
+    'bdvs',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -77,7 +78,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'biliweb',
         'USER': 'root',
-        'PASSWORD': '1428850347a+',
+        'PASSWORD': 'cuit051072sW+',
         'HOST': '119.27.176.229',
         'PORT': '10012'
     }

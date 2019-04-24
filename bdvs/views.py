@@ -1,4 +1,5 @@
 from django.shortcuts import render, get_object_or_404
+
 from .models import UP, VIDEO
 from django.core.paginator import Paginator
 from django.conf import settings
@@ -45,7 +46,7 @@ def up_trace(request):
     ups_all_list = UP.objects.all()
     content = get_list_common_data(request, ups_all_list)
     content['add_form'] = add_form
-    return render(request, 'up_trace.html', content)
+    return render(request, 'tracer/up_trace.html', content)
 
 
 def video_trace(request):
@@ -53,7 +54,7 @@ def video_trace(request):
     videos_all_list = VIDEO.objects.all()
     content = get_list_common_data(request, videos_all_list)
     content['add_form'] = add_form
-    return render(request, 'video_trace.html', content)
+    return render(request, 'tracer/video_trace.html', content)
 
 
 def add_up(request):
@@ -61,7 +62,7 @@ def add_up(request):
     ups_all_list = UP.objects.all()
     content = get_list_common_data(request, ups_all_list)
     content['add_form'] = add_form
-    return render(request, 'up_trace.html', content)
+    return render(request, 'tracer/up_trace.html', content)
 
 
 def add_video(request):
@@ -69,7 +70,7 @@ def add_video(request):
     videos_all_list = VIDEO.objects.all()
     content = get_list_common_data(request, videos_all_list)
     content['add_form'] = add_form
-    return render(request, 'video_trace.html', content)
+    return render(request, 'tracer/video_trace.html', content)
 
 
 def up_data(request, mid):
@@ -77,19 +78,21 @@ def up_data(request, mid):
     mongo = MongoConnect()
     db = mongo.get_connection()
     up = db['up_data'].find_one({'_id': mid})
-    del up['_id']
-    archive, fans, trace_time = [], [], []
-    for once in up.values():
-        archive.append(once['archive'])
-        fans.append(once['fans'])
-        trace_time.append(once['trace_time'])
-    res = {'archive': archive, 'fans': fans, 'trace_time': trace_time}
+    if up is not None:
+        del up['_id']
+        archive, fans, trace_time = [], [], []
+        for once in up.values():
+            archive.append(once['archive'])
+            fans.append(once['fans'])
+            trace_time.append(once['trace_time'])
 
+        res = {'archive': archive, 'fans': fans, 'trace_time': trace_time}
+        content['up_data'] = res
     up_info = get_object_or_404(UP, mid=mid)
 
     content['up_info'] = up_info
-    content['up_data'] = res
-    return render(request, 'up_data.html', content)
+
+    return render(request, 'tracer/up_data.html', content)
 
 
 def video_data(request, aid):
@@ -109,6 +112,7 @@ def video_data(request, aid):
         share.append(once['share'])
         like.append(once['like'])
         trace_time.append(once['trace_time'])
+    trace_time = trace_time[::int(len(trace_time)/10)]
     res = {'view': view, 'danmaku': danmaku, 'reply': reply, 'favorite': favorite,
            'coin': coin, 'share': share, 'like': like, 'trace_time': trace_time}
 
@@ -116,9 +120,30 @@ def video_data(request, aid):
 
     content['video_info'] = video_info
     content['video_data'] = res
-    return render(request, 'video_data.html', content)
+    return render(request, 'tracer/video_data.html', content)
 
 
 def chart_1(request):
     content = dict()
-    return render(request, 'chart_1.html', content)
+    with open('data/tid.json', encoding='utf-8') as f:
+        data = json.load(f)
+    content['data'] = data['data']
+    return render(request, 'charts/chart_1.html', content)
+
+
+def chart_2(request, year):
+    content = dict()
+    with open('data/wordCloud/201{}.json'.format(year)) as f:
+        data = json.load(f)
+    content['data'] = data['data']
+    return render(request, 'charts/chart_2.html', content)
+
+
+def chart_3(request):
+    content = dict()
+    return render(request, 'charts/chart_3.html', content)
+
+
+def chart_4(request):
+    content = dict()
+    return render(request, 'charts/chart_4.html', content)

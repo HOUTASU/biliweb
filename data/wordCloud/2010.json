@@ -1,0 +1,412 @@
+{
+  "data": [
+    {
+      "name": "APPLE",
+      "value": 105.0
+    },
+    {
+      "name": "BOY",
+      "value": 107.0
+    },
+    {
+      "name": "ANGEL",
+      "value": 108.0
+    },
+    {
+      "name": "BEATS",
+      "value": 117.0
+    },
+    {
+      "name": "VOCALOID",
+      "value": 120.0
+    },
+    {
+      "name": "BAD",
+      "value": 124.0
+    },
+    {
+      "name": "GUMI",
+      "value": 139.0
+    },
+    {
+      "name": "UTAU",
+      "value": 141.0
+    },
+    {
+      "name": "MV",
+      "value": 147.0
+    },
+    {
+      "name": "MUGEN",
+      "value": 155.0
+    },
+    {
+      "name": "VER",
+      "value": 156.0
+    },
+    {
+      "name": "BGM",
+      "value": 185.0
+    },
+    {
+      "name": "ACG",
+      "value": 207.0
+    },
+    {
+      "name": "ED",
+      "value": 213.0
+    },
+    {
+      "name": "AMV",
+      "value": 243.0
+    },
+    {
+      "name": "VS",
+      "value": 263.0
+    },
+    {
+      "name": "MMD",
+      "value": 461.0
+    },
+    {
+      "name": "OP",
+      "value": 664.0
+    },
+    {
+      "name": "PV",
+      "value": 794.0
+    },
+    {
+      "name": "MAD",
+      "value": 1112.0
+    },
+    {
+      "name": "\u5144\u8d35",
+      "value": 101.0
+    },
+    {
+      "name": "\u6d17\u8111",
+      "value": 102.0
+    },
+    {
+      "name": "\u6d41\u7a0b",
+      "value": 102.0
+    },
+    {
+      "name": "\u914d\u97f3",
+      "value": 102.0
+    },
+    {
+      "name": "\u795e\u66f2",
+      "value": 103.0
+    },
+    {
+      "name": "\u539f\u521b",
+      "value": 107.0
+    },
+    {
+      "name": "\u6218\u4e89",
+      "value": 107.0
+    },
+    {
+      "name": "\u5267\u573a\u7248",
+      "value": 115.0
+    },
+    {
+      "name": "\u5b57\u5e55",
+      "value": 119.0
+    },
+    {
+      "name": "\u6218\u58eb",
+      "value": 129.0
+    },
+    {
+      "name": "\u95ee\u9898",
+      "value": 137.0
+    },
+    {
+      "name": "\u9b54\u6cd5",
+      "value": 137.0
+    },
+    {
+      "name": "\u5927\u4e08\u592b",
+      "value": 142.0
+    },
+    {
+      "name": "\u5468\u520a",
+      "value": 144.0
+    },
+    {
+      "name": "\u5e7b\u60f3",
+      "value": 152.0
+    },
+    {
+      "name": "\u5929\u4f7f",
+      "value": 155.0
+    },
+    {
+      "name": "\u8f7b\u97f3",
+      "value": 157.0
+    },
+    {
+      "name": "\u59b9\u5b50",
+      "value": 163.0
+    },
+    {
+      "name": "\u6280\u672f",
+      "value": 183.0
+    },
+    {
+      "name": "\u6392\u884c\u699c",
+      "value": 191.0
+    },
+    {
+      "name": "\u624b\u66f8",
+      "value": 247.0
+    },
+    {
+      "name": "\u4e16\u754c",
+      "value": 260.0
+    },
+    {
+      "name": "\u52a8\u753b",
+      "value": 277.0
+    },
+    {
+      "name": "\u5de1\u97f3",
+      "value": 279.0
+    },
+    {
+      "name": "\u5c11\u5973",
+      "value": 280.0
+    },
+    {
+      "name": "\u4f20\u8bf4",
+      "value": 283.0
+    },
+    {
+      "name": "\u93e1\u97f3",
+      "value": 320.0
+    },
+    {
+      "name": "\u6e38\u620f",
+      "value": 358.0
+    },
+    {
+      "name": "\u9b3c\u755c",
+      "value": 384.0
+    },
+    {
+      "name": "\u89c6\u9891",
+      "value": 425.0
+    },
+    {
+      "name": "\u521d\u97f3",
+      "value": 1426.0
+    },
+    {
+      "name": "\u6c42\u751f",
+      "value": 41.0
+    },
+    {
+      "name": "\u770b\u5230",
+      "value": 41.0
+    },
+    {
+      "name": "\u4ecb\u7ecd",
+      "value": 42.0
+    },
+    {
+      "name": "\u63a8\u8350",
+      "value": 42.0
+    },
+    {
+      "name": "\u89e6\u624b",
+      "value": 42.0
+    },
+    {
+      "name": "\u56de\u987e",
+      "value": 44.0
+    },
+    {
+      "name": "\u5f55\u50cf",
+      "value": 44.0
+    },
+    {
+      "name": "\u7a7f\u8d8a",
+      "value": 44.0
+    },
+    {
+      "name": "\u653b\u7565",
+      "value": 45.0
+    },
+    {
+      "name": "\u604b\u7231",
+      "value": 51.0
+    },
+    {
+      "name": "\u6b7b\u4ea1",
+      "value": 51.0
+    },
+    {
+      "name": "\u6253\u6cd5",
+      "value": 52.0
+    },
+    {
+      "name": "\u6f84\u7a7a",
+      "value": 52.0
+    },
+    {
+      "name": "\u96c6\u5408",
+      "value": 52.0
+    },
+    {
+      "name": "\u65e0\u9650",
+      "value": 54.0
+    },
+    {
+      "name": "\u8865\u5b8c",
+      "value": 54.0
+    },
+    {
+      "name": "\u559c\u6b22",
+      "value": 55.0
+    },
+    {
+      "name": "\u5b8c\u6210",
+      "value": 55.0
+    },
+    {
+      "name": "\u6ce8\u610f",
+      "value": 55.0
+    },
+    {
+      "name": "\u7206\u7b11",
+      "value": 57.0
+    },
+    {
+      "name": "\u8bd5\u73a9",
+      "value": 59.0
+    },
+    {
+      "name": "\u4e71\u5165",
+      "value": 60.0
+    },
+    {
+      "name": "\u65e0\u5934",
+      "value": 60.0
+    },
+    {
+      "name": "\u4e0d\u80fd",
+      "value": 63.0
+    },
+    {
+      "name": "\u4fa6\u63a2",
+      "value": 63.0
+    },
+    {
+      "name": "\u6ca1\u6709",
+      "value": 67.0
+    },
+    {
+      "name": "\u5b8c\u7ed3",
+      "value": 68.0
+    },
+    {
+      "name": "\u53ef\u80fd",
+      "value": 75.0
+    },
+    {
+      "name": "\u604b\u611b",
+      "value": 76.0
+    },
+    {
+      "name": "\u6cbb\u6108",
+      "value": 77.0
+    },
+    {
+      "name": "\u53ef\u7231",
+      "value": 79.0
+    },
+    {
+      "name": "\u6f14\u793a",
+      "value": 79.0
+    },
+    {
+      "name": "\u4f7f\u547d",
+      "value": 82.0
+    },
+    {
+      "name": "\u7ec4\u66f2",
+      "value": 83.0
+    },
+    {
+      "name": "\u8868\u793a",
+      "value": 83.0
+    },
+    {
+      "name": "\u4fee\u9020",
+      "value": 84.0
+    },
+    {
+      "name": "\u641e\u7b11",
+      "value": 84.0
+    },
+    {
+      "name": "\u6f14\u594f",
+      "value": 84.0
+    },
+    {
+      "name": "\u5408\u5531",
+      "value": 92.0
+    },
+    {
+      "name": "\u9884\u544a",
+      "value": 95.0
+    },
+    {
+      "name": "\u5bf9\u6bd4",
+      "value": 98.0
+    },
+    {
+      "name": "\u81ea\u5236",
+      "value": 101.0
+    },
+    {
+      "name": "\u6000\u65e7",
+      "value": 103.0
+    },
+    {
+      "name": "\u53ec\u5524",
+      "value": 105.0
+    },
+    {
+      "name": "\u77e5\u9053",
+      "value": 106.0
+    },
+    {
+      "name": "\u4fb5\u7565",
+      "value": 127.0
+    },
+    {
+      "name": "\u642c\u8fd0",
+      "value": 234.0
+    },
+    {
+      "name": "\u89e3\u8bf4",
+      "value": 242.0
+    },
+    {
+      "name": "\u5408\u96c6",
+      "value": 257.0
+    },
+    {
+      "name": "\u4fee\u590d",
+      "value": 312.0
+    },
+    {
+      "name": "\u7ffb\u5531",
+      "value": 522.0
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block page_title %}
+    Charts
+{% endblock %}
+
+{% block page_name %}
+    Charts
+{% endblock %}
+
+{% block link %}
+    <link href="{% static '/css/my.css' %}">
+
+{% endblock %}
+
+{% block page_content %}
+    <div>
+
+        <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+        <div id="main" class="echarts-3"></div>
+
+    </div>
+{% endblock %}
+
+
+{% block scripts %}
+    <script src="{% static 'js/echarts.js' %}"></script>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        let myChart = echarts.init(document.getElementById('main'));
+
+        // 指定图表的配置项和数据
+        let option = {
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'cross',
+                    crossStyle: {
+                        color: '#999'
+                    }
+                }
+            },
+            toolbox: {
+                feature: {
+                    dataView: {show: true, readOnly: false},
+                    magicType: {show: true, type: ['line', 'bar']},
+                    restore: {show: true},
+                    saveAsImage: {show: true}
+                }
+            },
+            legend: {
+                data: ['视频数', '注册用户数']
+            },
+            xAxis: [
+                {
+                    type: 'category',
+                    data: ['10', '11', '12', '13', '14', '15', '16', '17', '18'],
+                    axisPointer: {
+                        type: 'shadow'
+                    }
+                }
+            ],
+            yAxis: [
+                {
+                    type: 'value',
+                    name: '视频数',
+                    min: 0,
+                    max: 20000000,
+                    interval: 2000000,
+                    axisLabel: {
+                        formatter: '{value}'
+                    }
+                },
+                {
+                    type: 'value',
+                    name: '注册用户数',
+                    min: 0,
+                    max: 200000000,
+                    interval: 20000000,
+                    axisLabel: {
+                        formatter: '{value}'
+                    }
+                }
+            ],
+            series: [
+                {
+                    name: '视频数',
+                    type: 'bar',
+                    data: [25383, 84096, 130204, 253497, 451111, 915493, 2670773, 6851692, 17415955]
+                },
+                {
+                    name: '注册用户数',
+                    type: 'line',
+                    yAxisIndex: 1,
+                    data: [78760, 180564, 721085, 1974211, 4578214, 13060812, 53292755, 199074230, 109884556]
+                }
+            ]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+{% endblock %}

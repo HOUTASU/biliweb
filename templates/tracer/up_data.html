@@ -32,7 +32,7 @@
             // 指定图表的配置项和数据
             let option = {
                 title: {
-                    text: '折线图堆叠'
+                    text: '总播放-粉丝数'
                 },
                 tooltip: {
                     trigger: 'axis'
@@ -52,27 +52,47 @@
                         rotate: 30,
                         interval: 0,
                     },
-                    axisLine:{
-                        lineStyle:{color: 'red'}
+                    axisLine: {
+                        lineStyle: {color: 'red'}
                     },
                     boundaryGap: false,
                     data: {{ up_data.trace_time |safe }}
                 },
-                yAxis: {
-                    type: 'value',
-                    scale: true
-                },
+                yAxis: [
+                    {
+                        name: 'archive',
+                        type: 'value',
+                        scale: true,
+                        axisLabel: {
+                            formatter: '{value}'
+                        }
+                    },
+                    {
+                        name: 'fans',
+                        type: 'value',
+                        scale: true,
+                        axisLabel: {
+                            formatter: '{value}'
+                        }
+                    }
+                ]
+
+                ,
                 series: [
                     {
                         name: 'archive',
                         type: 'line',
-                        stack: '总量',
+
+                        yAxisIndex: 0,
+                        smooth: true,
                         data: {{ up_data.archive }}
                     },
                     {
                         name: 'fans',
                         type: 'line',
-                        stack: '总量',
+
+                        yAxisIndex: 1,
+                        smooth: true,
                         data: {{ up_data.fans }}
                     }
                 ]

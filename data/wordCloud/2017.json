@@ -1,0 +1,752 @@
+{
+  "data": [
+    {
+      "name": "VLOG",
+      "value": 30202.0
+    },
+    {
+      "name": "DANCE",
+      "value": 8597.0
+    },
+    {
+      "name": "IT",
+      "value": 8672.0
+    },
+    {
+      "name": "IN",
+      "value": 36397.0
+    },
+    {
+      "name": "P1",
+      "value": 8751.0
+    },
+    {
+      "name": "FEAT",
+      "value": 8754.0
+    },
+    {
+      "name": "BEJ48",
+      "value": 8857.0
+    },
+    {
+      "name": "PS",
+      "value": 8871.0
+    },
+    {
+      "name": "WORLD",
+      "value": 8958.0
+    },
+    {
+      "name": "BUG",
+      "value": 18151.0
+    },
+    {
+      "name": "TO",
+      "value": 28001.0
+    },
+    {
+      "name": "FATE",
+      "value": 9124.0
+    },
+    {
+      "name": "DAY",
+      "value": 9140.0
+    },
+    {
+      "name": "FOR",
+      "value": 9153.0
+    },
+    {
+      "name": "SHOWROOM",
+      "value": 9163.0
+    },
+    {
+      "name": "CP",
+      "value": 18760.0
+    },
+    {
+      "name": "BOSS",
+      "value": 9453.0
+    },
+    {
+      "name": "VIDEO",
+      "value": 9554.0
+    },
+    {
+      "name": "REMIX",
+      "value": 9632.0
+    },
+    {
+      "name": "QQ",
+      "value": 9737.0
+    },
+    {
+      "name": "OL",
+      "value": 9739.0
+    },
+    {
+      "name": "PART",
+      "value": 9829.0
+    },
+    {
+      "name": "LIVE",
+      "value": 41508.0
+    },
+    {
+      "name": "ON",
+      "value": 9861.0
+    },
+    {
+      "name": "GOT7",
+      "value": 9945.0
+    },
+    {
+      "name": "ED",
+      "value": 9952.0
+    },
+    {
+      "name": "GO",
+      "value": 9966.0
+    },
+    {
+      "name": "YOUTUBE",
+      "value": 10363.0
+    },
+    {
+      "name": "CG",
+      "value": 10424.0
+    },
+    {
+      "name": "GNZ48",
+      "value": 10689.0
+    },
+    {
+      "name": "NO",
+      "value": 11760.0
+    },
+    {
+      "name": "EP",
+      "value": 11896.0
+    },
+    {
+      "name": "THE",
+      "value": 109764.0
+    },
+    {
+      "name": "COVER",
+      "value": 25999.0
+    },
+    {
+      "name": "ONE",
+      "value": 12675.0
+    },
+    {
+      "name": "MY",
+      "value": 12763.0
+    },
+    {
+      "name": "HD",
+      "value": 12830.0
+    },
+    {
+      "name": "BTS",
+      "value": 14005.0
+    },
+    {
+      "name": "MUSIC",
+      "value": 14140.0
+    },
+    {
+      "name": "TEAM",
+      "value": 14169.0
+    },
+    {
+      "name": "YOU",
+      "value": 37338.0
+    },
+    {
+      "name": "LOL",
+      "value": 14559.0
+    },
+    {
+      "name": "EXO",
+      "value": 14718.0
+    },
+    {
+      "name": "PS4",
+      "value": 14791.0
+    },
+    {
+      "name": "UP",
+      "value": 38288.0
+    },
+    {
+      "name": "CF",
+      "value": 15442.0
+    },
+    {
+      "name": "ME",
+      "value": 32759.0
+    },
+    {
+      "name": "AKB48",
+      "value": 16087.0
+    },
+    {
+      "name": "GTA5",
+      "value": 16151.0
+    },
+    {
+      "name": "TV",
+      "value": 16345.0
+    },
+    {
+      "name": "LOVE",
+      "value": 16409.0
+    },
+    {
+      "name": "MC",
+      "value": 16755.0
+    },
+    {
+      "name": "PV",
+      "value": 16939.0
+    },
+    {
+      "name": "BGM",
+      "value": 17054.0
+    },
+    {
+      "name": "AMV",
+      "value": 17149.0
+    },
+    {
+      "name": "MINECRAFT",
+      "value": 18129.0
+    },
+    {
+      "name": "OP",
+      "value": 18257.0
+    },
+    {
+      "name": "WITH",
+      "value": 19450.0
+    },
+    {
+      "name": "MAD",
+      "value": 19953.0
+    },
+    {
+      "name": "CUT",
+      "value": 78179.0
+    },
+    {
+      "name": "DNF",
+      "value": 22626.0
+    },
+    {
+      "name": "CSGO",
+      "value": 22967.0
+    },
+    {
+      "name": "AND",
+      "value": 22974.0
+    },
+    {
+      "name": "BY",
+      "value": 28872.0
+    },
+    {
+      "name": "FGO",
+      "value": 29888.0
+    },
+    {
+      "name": "SNH48",
+      "value": 30811.0
+    },
+    {
+      "name": "OF",
+      "value": 37116.0
+    },
+    {
+      "name": "ASMR",
+      "value": 42350.0
+    },
+    {
+      "name": "VS",
+      "value": 107569.0
+    },
+    {
+      "name": "MV",
+      "value": 56579.0
+    },
+    {
+      "name": "MMD",
+      "value": 66047.0
+    },
+    {
+      "name": "\u5076\u50cf",
+      "value": 17942.0
+    },
+    {
+      "name": "\u65f6\u95f4",
+      "value": 17984.0
+    },
+    {
+      "name": "\u6280\u5de7",
+      "value": 17997.0
+    },
+    {
+      "name": "\u59b9\u5b50",
+      "value": 18059.0
+    },
+    {
+      "name": "\u65b0\u624b",
+      "value": 18187.0
+    },
+    {
+      "name": "\u9884\u544a\u7247",
+      "value": 18201.0
+    },
+    {
+      "name": "\u611f\u89c9",
+      "value": 18429.0
+    },
+    {
+      "name": "\u7089\u77f3",
+      "value": 18687.0
+    },
+    {
+      "name": "\u5927\u5e08",
+      "value": 18786.0
+    },
+    {
+      "name": "\u523a\u5ba2",
+      "value": 18951.0
+    },
+    {
+      "name": "\u5168\u573a",
+      "value": 19107.0
+    },
+    {
+      "name": "\u57fa\u7840",
+      "value": 19248.0
+    },
+    {
+      "name": "\u7f8e\u5973",
+      "value": 19260.0
+    },
+    {
+      "name": "\u9b3c\u755c",
+      "value": 19546.0
+    },
+    {
+      "name": "\u961f\u53cb",
+      "value": 19807.0
+    },
+    {
+      "name": "\u5927\u5bb6",
+      "value": 19848.0
+    },
+    {
+      "name": "\u73a9\u5bb6",
+      "value": 20268.0
+    },
+    {
+      "name": "\u7f8e\u98df",
+      "value": 20458.0
+    },
+    {
+      "name": "\u52a8\u6f2b",
+      "value": 20958.0
+    },
+    {
+      "name": "\u90e8\u5206",
+      "value": 21092.0
+    },
+    {
+      "name": "\u521d\u97f3",
+      "value": 21200.0
+    },
+    {
+      "name": "\u7248\u672c",
+      "value": 22353.0
+    },
+    {
+      "name": "\u6f14\u5531\u4f1a",
+      "value": 22505.0
+    },
+    {
+      "name": "\u516c\u6f14",
+      "value": 22519.0
+    },
+    {
+      "name": "\u6b4c\u66f2",
+      "value": 22595.0
+    },
+    {
+      "name": "\u539f\u521b",
+      "value": 23098.0
+    },
+    {
+      "name": "\u56fd\u670d",
+      "value": 23192.0
+    },
+    {
+      "name": "\u50f5\u5c38",
+      "value": 23213.0
+    },
+    {
+      "name": "\u5b98\u65b9",
+      "value": 23592.0
+    },
+    {
+      "name": "\u8001\u5e08",
+      "value": 24092.0
+    },
+    {
+      "name": "\u4eba\u751f",
+      "value": 24800.0
+    },
+    {
+      "name": "\u5e7f\u544a",
+      "value": 25241.0
+    },
+    {
+      "name": "\u624b\u6e38",
+      "value": 25613.0
+    },
+    {
+      "name": "\u624b\u673a",
+      "value": 25797.0
+    },
+    {
+      "name": "\u5b57\u5e55\u7ec4",
+      "value": 25913.0
+    },
+    {
+      "name": "\u7ecf\u5178",
+      "value": 26160.0
+    },
+    {
+      "name": "\u9a91\u58eb",
+      "value": 27696.0
+    },
+    {
+      "name": "\u4f53\u9a8c",
+      "value": 30097.0
+    },
+    {
+      "name": "\u6545\u4e8b",
+      "value": 30672.0
+    },
+    {
+      "name": "\u82b1\u7d6e",
+      "value": 31055.0
+    },
+    {
+      "name": "\u821e\u8e48",
+      "value": 31100.0
+    },
+    {
+      "name": "\u73b0\u573a",
+      "value": 31881.0
+    },
+    {
+      "name": "\u65f6\u523b",
+      "value": 32076.0
+    },
+    {
+      "name": "\u4e2d\u6587\u5b57\u5e55",
+      "value": 32325.0
+    },
+    {
+      "name": "\u7cbe\u5f69",
+      "value": 32755.0
+    },
+    {
+      "name": "\u52a8\u753b",
+      "value": 33167.0
+    },
+    {
+      "name": "\u6a21\u5f0f",
+      "value": 33546.0
+    },
+    {
+      "name": "\u89c6\u89d2",
+      "value": 35125.0
+    },
+    {
+      "name": "\u4f20\u8bf4",
+      "value": 35769.0
+    },
+    {
+      "name": "\u4e2a\u4eba",
+      "value": 36246.0
+    },
+    {
+      "name": "\u6d41\u7a0b",
+      "value": 36778.0
+    },
+    {
+      "name": "\u6218\u4e89",
+      "value": 38807.0
+    },
+    {
+      "name": "\u5b57\u5e55",
+      "value": 39150.0
+    },
+    {
+      "name": "\u751f\u8089",
+      "value": 43782.0
+    },
+    {
+      "name": "\u97f3\u4e50",
+      "value": 44523.0
+    },
+    {
+      "name": "\u5c11\u5973",
+      "value": 45070.0
+    },
+    {
+      "name": "\u5267\u60c5",
+      "value": 45723.0
+    },
+    {
+      "name": "\u6559\u5b66",
+      "value": 47113.0
+    },
+    {
+      "name": "\u5148\u950b",
+      "value": 48267.0
+    },
+    {
+      "name": "\u96c6\u9526",
+      "value": 49480.0
+    },
+    {
+      "name": "\u5f00\u7bb1",
+      "value": 52169.0
+    },
+    {
+      "name": "\u7535\u5f71",
+      "value": 53220.0
+    },
+    {
+      "name": "\u526a\u8f91",
+      "value": 63775.0
+    },
+    {
+      "name": "\u6559\u7a0b",
+      "value": 64942.0
+    },
+    {
+      "name": "\u5b9e\u51b5",
+      "value": 78735.0
+    },
+    {
+      "name": "\u738b\u8005",
+      "value": 111128.0
+    },
+    {
+      "name": "\u6e38\u620f",
+      "value": 137139.0
+    },
+    {
+      "name": "\u4e16\u754c",
+      "value": 150037.0
+    },
+    {
+      "name": "\u89c6\u9891",
+      "value": 175087.0
+    },
+    {
+      "name": "\u4e0d\u80fd",
+      "value": 14459.0
+    },
+    {
+      "name": "\u4f7f\u7528",
+      "value": 14570.0
+    },
+    {
+      "name": "\u51fb\u6740",
+      "value": 14660.0
+    },
+    {
+      "name": "\u6765\u81ea",
+      "value": 15064.0
+    },
+    {
+      "name": "\u5b8c\u7ed3",
+      "value": 15227.0
+    },
+    {
+      "name": "\u65e0\u9650",
+      "value": 15575.0
+    },
+    {
+      "name": "\u62cd\u6444",
+      "value": 15709.0
+    },
+    {
+      "name": "\u8fd8\u6709",
+      "value": 16138.0
+    },
+    {
+      "name": "\u8868\u6f14",
+      "value": 16212.0
+    },
+    {
+      "name": "\u5f00\u59cb",
+      "value": 16625.0
+    },
+    {
+      "name": "\u8d77\u6765",
+      "value": 16868.0
+    },
+    {
+      "name": "\u4e0d\u4f1a",
+      "value": 17744.0
+    },
+    {
+      "name": "\u91c7\u8bbf",
+      "value": 17797.0
+    },
+    {
+      "name": "\u770b\u770b",
+      "value": 17831.0
+    },
+    {
+      "name": "\u6f14\u793a",
+      "value": 17861.0
+    },
+    {
+      "name": "\u5c55\u793a",
+      "value": 18246.0
+    },
+    {
+      "name": "\u840c\u65b0",
+      "value": 18964.0
+    },
+    {
+      "name": "\u7ec3\u4e60",
+      "value": 19174.0
+    },
+    {
+      "name": "\u4ecb\u7ecd",
+      "value": 19931.0
+    },
+    {
+      "name": "\u4f7f\u547d",
+      "value": 20000.0
+    },
+    {
+      "name": "\u63a8\u8350",
+      "value": 21848.0
+    },
+    {
+      "name": "\u53ec\u5524",
+      "value": 23559.0
+    },
+    {
+      "name": "\u53ef\u80fd",
+      "value": 24101.0
+    },
+    {
+      "name": "\u9632\u5f39",
+      "value": 25364.0
+    },
+    {
+      "name": "\u4f1a\u8ba1",
+      "value": 25936.0
+    },
+    {
+      "name": "\u9707\u60ca",
+      "value": 27226.0
+    },
+    {
+      "name": "\u64cd\u4f5c",
+      "value": 27862.0
+    },
+    {
+      "name": "\u8bd5\u73a9",
+      "value": 28345.0
+    },
+    {
+      "name": "\u5f55\u50cf",
+      "value": 30563.0
+    },
+    {
+      "name": "\u5b66\u4e60",
+      "value": 31018.0
+    },
+    {
+      "name": "\u5d29\u574f",
+      "value": 31314.0
+    },
+    {
+      "name": "\u653b\u7565",
+      "value": 32971.0
+    },
+    {
+      "name": "\u53ef\u7231",
+      "value": 33346.0
+    },
+    {
+      "name": "\u751f\u5b58",
+      "value": 33451.0
+    },
+    {
+      "name": "\u559c\u6b22",
+      "value": 33974.0
+    },
+    {
+      "name": "\u641e\u7b11",
+      "value": 34006.0
+    },
+    {
+      "name": "\u77e5\u9053",
+      "value": 36296.0
+    },
+    {
+      "name": "\u6ca1\u6709",
+      "value": 36399.0
+    },
+    {
+      "name": "\u7ffb\u5531",
+      "value": 38200.0
+    },
+    {
+      "name": "\u81ea\u5236",
+      "value": 40333.0
+    },
+    {
+      "name": "\u642c\u8fd0",
+      "value": 40928.0
+    },
+    {
+      "name": "\u5206\u4eab",
+      "value": 41817.0
+    },
+    {
+      "name": "\u9884\u544a",
+      "value": 42078.0
+    },
+    {
+      "name": "\u6c42\u751f",
+      "value": 51572.0
+    },
+    {
+      "name": "\u5b88\u671b",
+      "value": 52975.0
+    },
+    {
+      "name": "\u5408\u96c6",
+      "value": 97217.0
+    },
+    {
+      "name": "\u89e3\u8bf4",
+      "value": 100690.0
+    }
+  ]
+}

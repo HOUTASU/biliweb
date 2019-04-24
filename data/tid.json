@@ -1,100 +1,74 @@
-{% extends 'base.html' %}
-{% load staticfiles %}
-
-{% block page_title %}
-    Charts
-{% endblock %}
-
-{% block page_name %}
-    Charts
-{% endblock %}
-
-{% block link %}
-    <link href="{% static '/css/my.css' %}">
-    <script src="{% static 'js/echarts.js' %}"></script>
-{% endblock %}
-
-{% block page_content %}
-    <div>
-
-        <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
-        <div id="main" class="echarts-1"></div>
-        <script type="text/javascript">
-            // 基于准备好的dom，初始化echarts实例
-            let myChart = echarts.init(document.getElementById('main'));
-
-            // 指定图表的配置项和数据
-
-            var data = [
+{
+  "data": [
                 {
                     "name": "动画",
-                    itemStyle: {
-                        color: '#da0d68'
+                    "itemStyle": {
+                        "color": "#da0d68"
                     },
                     "children": [
                         {
                             "name": "MAD·AMV",
                             "value": 260706,
-                            itemStyle: {
-                                color: '#CD1076'
+                            "itemStyle": {
+                                "color": "#CD1076"
                             }
                         },
                         {
                             "name": "MMD·3D",
                             "value": 316938,
-                            itemStyle: {
-                                color: '#e0719c'
-                            },
+                            "itemStyle": {
+                                "color": "#e0719c"
+                            }
                         },
                         {
                             "name": "短片·手书·配音",
                             "value": 170088,
-                            itemStyle: {
-                                color: '#FF1493'
+                            "itemStyle": {
+                                "color": "#FF1493"
                             }
 
                         },
                         {
                             "name": "综合",
                             "value": 536073,
-                            itemStyle: {
-                                color: '#ef5a78'
+                            "itemStyle": {
+                                "color": "#ef5a78"
                             }
                         }
                     ]
                 },
                 {
                     "name": "番剧",
-                    itemStyle: {
-                        color: '#da1d23'
+                    "itemStyle": {
+                        "color": "#da1d23"
                     },
                     "children": [
                         {
                             "name": "连载动画",
                             "value": 26412,
-                            itemStyle: {
-                                color: '#f7f1bd'
+                            "itemStyle": {
+                                "color": "#f7f1bd"
                             }
                         },
                         {
                             "name": "完结动画",
                             "value": 16944,
-                            itemStyle: {
-                                color: '#dd4c51'
-                            },
+                            "itemStyle": {
+                                "color": "#dd4c51"
+                            }
                         },
                         {
                             "name": "资讯",
                             "value": 16203,
-                            itemStyle: {
-                                color: '#3e0317'
+                            "itemStyle": {
+                                "color": "#3e0317"
                             }
                         },
                         {
                             "name": "官方延伸",
                             "value": 101324,
-                            itemStyle: {
-                                color: '#e62969'
+                            "itemStyle": {
+                                "color": "#e62969"
                             }
                         }
                     ]
@@ -105,50 +79,50 @@
                         {
                             "name": "原创音乐",
                             "value": 35141,
-                            itemStyle: {
-                                color: '#AEEEEE'
+                            "itemStyle": {
+                                "color": "#AEEEEE"
                             }
                         },
                         {
                             "name": "翻唱",
                             "value": 475047,
-                            itemStyle: {
-                                color: '#7AC5CD'
+                            "itemStyle": {
+                                "color": "#7AC5CD"
                             }
                         },
                         {
                             "name": "VOCALOID·UTAU",
                             "value": 167061,
-                            itemStyle: {
-                                color: '#53868B'
+                            "itemStyle": {
+                                "color": "#53868B"
                             }
                         },
                         {
                             "name": "演奏",
                             "value": 366836,
-                            itemStyle: {
-                                color: '#00C5CD'
+                            "itemStyle": {
+                                "color": "#00C5CD"
                             }
                         },
                         {
                             "name": "三次元音乐",
                             "value": 545488,
-                            itemStyle: {
-                                color: '#00E5EE'
+                            "itemStyle": {
+                                "color": "#00E5EE"
                             }
                         },
                         {
                             "name": "OP/ED/OST",
                             "value": 57377,
-                            itemStyle: {
-                                color: '#008B8B'
+                            "itemStyle": {
+                                "color": "#008B8B"
                             }
                         },
                         {
                             "name": "音乐选集",
                             "value": 601663,
-                            itemStyle: {
-                                color: '#528B8B'
+                            "itemStyle": {
+                                "color": "#528B8B"
                             }
                         }
                     ]
@@ -159,57 +133,57 @@
                         {
                             "name": "单机游戏",
                             "value": 3230160,
-                            itemStyle: {
-                                color: '#EE8262'
+                            "itemStyle": {
+                                "color": "#EE8262"
                             }
                         },
                         {
                             "name": "电子竞技",
                             "value": 1460940,
-                            itemStyle: {
-                                color: '#FF8C69'
+                            "itemStyle": {
+                                "color": "#FF8C69"
                             }
                         },
                         {
                             "name": "手机游戏",
                             "value": 1876619,
-                            itemStyle: {
-                                color: '#CD7054'
+                            "itemStyle": {
+                                "color": "#CD7054"
                             }
                         },
                         {
                             "name": "网络游戏",
                             "value": 2024054,
-                            itemStyle: {
-                                color: '#8B4C39'
+                            "itemStyle": {
+                                "color": "#8B4C39"
                             }
                         },
                         {
                             "name": "桌游棋牌",
                             "value": 253088,
-                            itemStyle: {
-                                color: '#FFA07A'
+                            "itemStyle": {
+                                "color": "#FFA07A"
                             }
                         },
                         {
                             "name": "GMV",
                             "value": 90353,
-                            itemStyle: {
-                                color: '#EE9572'
+                            "itemStyle": {
+                                "color": "#EE9572"
                             }
                         },
                         {
                             "name": "音游",
                             "value": 247739,
-                            itemStyle: {
-                                color: '#CD8162'
+                            "itemStyle": {
+                                "color": "#CD8162"
                             }
                         },
                         {
                             "name": "Mugen",
                             "value": 56122,
-                            itemStyle: {
-                                color: '#8B5742'
+                            "itemStyle": {
+                                "color": "#8B5742"
                             }
                         }
                     ]
@@ -220,50 +194,50 @@
                         {
                             "name": "趣味科普人文",
                             "value": 289149,
-                            itemStyle: {
-                                color: '#7FFFD4'
+                            "itemStyle": {
+                                "color": "#7FFFD4"
                             }
                         },
                         {
                             "name": "野生技术协会",
                             "value": 283591,
-                            itemStyle: {
-                                color: '#66CDAA'
+                            "itemStyle": {
+                                "color": "#66CDAA"
                             }
                         },
                         {
                             "name": "演讲· 公开课",
                             "value": 399641,
-                            itemStyle: {
-                                color: '#9BCD9B'
+                            "itemStyle": {
+                                "color": "#9BCD9B"
                             }
                         },
                         {
                             "name": "星海",
                             "value": 87745,
-                            itemStyle: {
-                                color: '#458B74'
+                            "itemStyle": {
+                                "color": "#458B74"
                             }
                         },
                         {
                             "name": "数码",
                             "value": 309927,
-                            itemStyle: {
-                                color: '#9BCD9B'
+                            "itemStyle": {
+                                "color": "#9BCD9B"
                             }
                         },
                         {
                             "name": "机械",
                             "value": 118809,
-                            itemStyle: {
-                                color: '#528B8B'
+                            "itemStyle": {
+                                "color": "#528B8B"
                             }
                         },
                         {
                             "name": "汽车",
                             "value": 157647,
-                            itemStyle: {
-                                color: '#76EEC6'
+                            "itemStyle": {
+                                "color": "#76EEC6"
                             }
                         }
                     ]
@@ -512,65 +486,5 @@
                         }
                     ]
                 }
-            ];
-
-            option = {
-                title: {
-                    text: 'WORLD COFFEE RESEARCH SENSORY LEXICON',
-                    subtext: 'Source: https://worldcoffeeresearch.org/work/sensory-lexicon/',
-                    textStyle: {
-                        fontSize: 14,
-                        align: 'center'
-                    },
-                    subtextStyle: {
-                        align: 'center'
-                    },
-                    sublink: 'https://worldcoffeeresearch.org/work/sensory-lexicon/'
-                },
-                series: {
-                    type: 'sunburst',
-                    highlightPolicy: 'ancestor',
-                    data: data,
-                    radius: [0, '95%'],
-                    sort: null,
-                    levels: [{}, {
-                        r0: '15%',
-                        r: '35%',
-                        itemStyle: {
-                            borderWidth: 2
-                        },
-                        label: {
-                            rotate: 'tangential'
-                        }
-                    }, {
-                        r0: '35%',
-                        r: '70%',
-                        label: {
-                            align: 'right'
-                        }
-                    }, {
-                        r0: '70%',
-                        r: '72%',
-                        label: {
-                            position: 'outside',
-                            padding: 3,
-                            silent: false
-                        },
-                        itemStyle: {
-                            borderWidth: 3
-                        }
-                    }]
-                }
-            };
-
-
-            // 使用刚指定的配置项和数据显示图表。
-            myChart.setOption(option);
-        </script>
-    </div>
-{% endblock %}
-
-
-{% block scripts %}
-
-{% endblock %}
+            ]
+}

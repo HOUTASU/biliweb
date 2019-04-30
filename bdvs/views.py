@@ -153,4 +153,10 @@ def chart_3(request):
 
 def chart_4(request):
     content = dict()
+    with open('data/online.json') as f:
+        data = json.load(f)
+
+    min_value = min([i[2] for i in data['data']])
+    content['data'] = data['data']
+    content['min_value'] = min_value
     return render(request, 'charts/chart_4.html', content)

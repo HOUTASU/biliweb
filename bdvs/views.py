@@ -160,3 +160,11 @@ def chart_4(request):
     content['data'] = data['data']
     content['min_value'] = min_value
     return render(request, 'charts/chart_4.html', content)
+
+
+def chart_5(request):
+    content = dict()
+    with open('data/level.json') as f:
+        data = json.load(f)
+    content['data'] = data['data']
+    return render(request, 'charts/chart_5.html', content)

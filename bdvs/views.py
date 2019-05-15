@@ -85,7 +85,7 @@ def up_data(request, mid):
             archive.append(once['archive'])
             fans.append(once['fans'])
             trace_time.append(once['trace_time'])
-
+        trace_time = trace_time[::int(len(trace_time) / 10)]
         res = {'archive': archive, 'fans': fans, 'trace_time': trace_time}
         content['up_data'] = res
     up_info = get_object_or_404(UP, mid=mid)
@@ -126,7 +126,18 @@ def video_data(request, aid):
 def ranks(request, type):
     content = dict()
     # todo: 读取json文件，返回分页后的数据
-    get_list_common_data()
+    ranks_file = {
+        0: 'view',
+        1: 'coin',
+        2: 'danmaku',
+        3: 'reply',
+        4: 'favorite',
+        5: 'share',
+    }
+    with open('data/rank/' + ranks_file[type] + '.json', encoding='utf8') as f:
+        data = json.load(f)
+    content = get_list_common_data(request, data)
+    content['type'] = ranks_file[type]
     return render(request, 'ranks.html', content)
 
 
@@ -138,6 +149,7 @@ def chart_1(request):
     return render(request, 'charts/chart_1.html', content)
 
 
+# 词云
 def chart_2(request, year):
     content = dict()
     with open('data/wordCloud/201{}.json'.format(year)) as f:
@@ -146,11 +158,13 @@ def chart_2(request, year):
     return render(request, 'charts/chart_2.html', content)
 
 
+# 投稿及注册
 def chart_3(request):
     content = dict()
     return render(request, 'charts/chart_3.html', content)
 
 
+# 在线人数
 def chart_4(request):
     content = dict()
     with open('data/online.json') as f:

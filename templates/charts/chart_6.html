@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block page_title %}
+    Charts
+{% endblock %}
+
+{% block page_name %}
+    Charts
+{% endblock %}
+
+{% block link %}
+    <link href="{% static '/css/my.css' %}">
+
+{% endblock %}
+
+{% block page_content %}
+    <div>
+
+        <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+        <div id="main" class="echarts-1"></div>
+
+    </div>
+{% endblock %}
+
+
+{% block scripts %}
+    <script src="{% static 'js/echarts.js' %}"></script>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        let myChart = echarts.init(document.getElementById('main'));
+
+        // 指定图表的配置项和数据
+        let option = {
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+{% endblock %}

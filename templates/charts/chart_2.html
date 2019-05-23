@@ -28,41 +28,30 @@
     <script src="{% static 'js/echarts.js' %}"></script>
     <script src="{% static 'js/echarts-wordcloud.js' %}"></script>
     <script type="text/javascript">
-        // 基于准备好的dom，初始化echarts实例
-        let myChart = echarts.init(document.getElementById('main'));
-
-        // 指定图表的配置项和数据
-        let option = {
-
-            tooltip: {
-                show: true
-            },
-            series: [{
-                type: "wordCloud",
-                gridSize: 8,
-                sizeRange: [24, 75],
-                width: 960,
-                height: 840,
-                textStyle: {
-                    normal: {
-                        color: function () {
-                            return 'rgb(' + [
-                                Math.round(Math.random() * 160),
-                                Math.round(Math.random() * 160),
-                                Math.round(Math.random() * 160)
-                            ].join(',') + ')';
-                        }
-                    },
-                    emphasis: {
-                        shadowBlur: 10,
-                        shadowColor: '#333'
-                    }
-                },
-                data: {{ data |safe}}
-            }]
-        };
-
-        // 使用刚指定的配置项和数据显示图表。
-        myChart.setOption(option);
+// 基于准备好的dom，初始化echarts实例
+let myChart = echarts.init(document.getElementById('main'));
+// 指定图表的配置项和数据
+let option = {
+    series: [{
+        type: "wordCloud",
+        gridSize: 8,
+        sizeRange: [24, 75],
+        width: 960,
+        height: 840,
+        textStyle: {
+            normal: {
+                color: function () {
+                    return 'rgb(' + [
+                        Math.round(Math.random() * 160),
+                        Math.round(Math.random() * 160),
+                        Math.round(Math.random() * 160)
+                    ].join(',') + ')';
+                }},
+            emphasis: {
+                shadowBlur: 10,
+                shadowColor: '#333'}},
+        data: {{ data |safe}} }] };
+// 使用刚指定的配置项和数据显示图表。
+myChart.setOption(option);
     </script>
 {% endblock %}

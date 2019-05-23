@@ -35,7 +35,7 @@
             title: {
                 text: '用户等级-注册年份',
                 textStyle: {
-                    fontSize: 14,
+                    fontSize: 18,
                     align: 'center'
                 },
                 subtextStyle: {
@@ -58,11 +58,22 @@
                 containLabel: true
             },
             xAxis: {
-                type: 'value'
+                type: 'value',
+                axisLabel: {
+                        textStyle: {
+                            "fontSize": 18,
+
+                        }
+                    }
             },
             yAxis: {
                 type: 'category',
-                data: ['09', '10', '11', '12', '13', '14', '15', '16', '17', '18']
+                data: ['10', '11', '12', '13', '14', '15', '16', '17', '18'],
+                axisLabel: {
+                        textStyle: {
+                            "fontSize": 18,
+                        }
+                    }
             },
             series: [
                 {

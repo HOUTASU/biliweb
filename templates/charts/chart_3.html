@@ -37,7 +37,8 @@
                 axisPointer: {
                     type: 'cross',
                     crossStyle: {
-                        color: '#999'
+                        color: '#999',
+                        fontSize:18
                     }
                 }
             },
@@ -50,7 +51,8 @@
                 }
             },
             legend: {
-                data: ['视频数', '注册用户数']
+                data: ['视频数', '注册用户数'],
+
             },
             xAxis: [
                 {
@@ -58,6 +60,12 @@
                     data: ['10', '11', '12', '13', '14', '15', '16', '17', '18'],
                     axisPointer: {
                         type: 'shadow'
+                    },
+                    axisLabel: {
+                        textStyle: {
+                            "fontSize": 24,
+
+                        }
                     }
                 }
             ],
@@ -69,7 +77,12 @@
                     max: 20000000,
                     interval: 2000000,
                     axisLabel: {
-                        formatter: '{value}'
+                        formatter: '{value}',
+                         textStyle: {
+                            "fontSize": 18,
+
+                        }
+
                     }
                 },
                 {
@@ -77,21 +90,24 @@
                     name: '注册用户数',
                     min: 0,
                     max: 13000000,
-                    interval: 1000000,
+                    interval: 1300000,
                     axisLabel: {
-                        formatter: '{value}'
-                    }
-                }
+                        formatter: '{value}',
+                         textStyle: {
+                            "fontSize": 18,
+
+                        }
+                }}
             ],
             series: [
                 {
                     name: '视频数',
-                    type: 'bar',
+                    type: 'line',
                     data: [25383, 84096, 130204, 253497, 451111, 915493, 2670773, 6851692, 17415955]
                 },
                 {
                     name: '注册用户数',
-                    type: 'line',
+                    type: 'bar',
                     yAxisIndex: 1,
                     data: [71445, 149576, 377183, 1249014, 1968805, 6720280, 12726509, 10996922, 5140266]
                 }

@@ -85,7 +85,6 @@ def up_data(request, mid):
             archive.append(once['archive'])
             fans.append(once['fans'])
             trace_time.append(once['trace_time'])
-        trace_time = trace_time[::int(len(trace_time) / 10)]
         res = {'archive': archive, 'fans': fans, 'trace_time': trace_time}
         content['up_data'] = res
     up_info = get_object_or_404(UP, mid=mid)
@@ -112,7 +111,6 @@ def video_data(request, aid):
         share.append(once['share'])
         like.append(once['like'])
         trace_time.append(once['trace_time'])
-    trace_time = trace_time[::int(len(trace_time) / 10)]
     res = {'view': view, 'danmaku': danmaku, 'reply': reply, 'favorite': favorite,
            'coin': coin, 'share': share, 'like': like, 'trace_time': trace_time}
 
@@ -124,7 +122,6 @@ def video_data(request, aid):
 
 
 def ranks(request, type):
-    content = dict()
     # todo: 读取json文件，返回分页后的数据
     ranks_file = {
         0: 'view',

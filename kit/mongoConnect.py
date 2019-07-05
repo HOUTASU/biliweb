@@ -12,8 +12,8 @@ import pymongo
 
 class MongoConnect(object):
     def __init__(self):
-        self.mongo_uri = 'mongodb://admin:051072@148.70.23.117:27017/'
-        self.mongo_db = 'bilibili'
+        self.mongo_uri = ''
+        self.mongo_db = ''
 
     def get_connection(self):
         c = pymongo.MongoClient(self.mongo_uri)
